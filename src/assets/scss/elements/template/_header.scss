@@ -1,13 +1,16 @@
 .header {
   width: 100%;
+  height: 17vh;
   font-family: $main-font;
   font-weight: bold;
+  overflow: hidden;
 }
 
 .header__wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 25px;
 }
 
 .nav-header {}
@@ -30,15 +33,16 @@
 
 .li-header {
   list-style: none;
-  font-size: 18px;
+  font-size: 21px;
+  font-weight: 600;
 }
 
 .li-space-left {
-  padding-right: 30px;
+  padding-right: 50px;
 }
 
 .li-space-right {
-  padding-right: 30px;
+  padding-right: 50px;
 }
 
 .nav__link {
@@ -53,13 +57,19 @@
 }
 
 .logo {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  //margin-bottom: 20px;
 }
 .logo__link {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  background-image: url("/src/assets/images/main_logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100px;
+  width: 400px;
 }
-.logo__img {}
+//.logo__img {
+//  width: 400px;
+//}
