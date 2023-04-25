@@ -1,0 +1,41 @@
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.hero {
+  width: 100%;
+  height: 83vh;
+}
+.hero__wrapper {
+  //background-image: url('https://via.placeholder.com/1000x500'); //Placeholder photo
+  background-image: url('/src/assets/images/hero__photo.png'); //Dodać opacity przd wrzuceniem tu zdjęcia :)
+  background-size: cover;
+  background-position: center;
+  margin-top: 0;
+  margin-right: 180px;
+  margin-left: 180px;
+  opacity: 1;
+  border-radius: 5px;
+  height: 95%;
+  overflow: hidden;
+}
+
+.hero__content {
+  padding-top: 14%;
+  width: 54%;
+  height: 95%;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hero__title {
+  font-size: 64px;
+  font-weight: 900;
+  color: $textColor;
+}
+.hero__text {
+  color: $textColor;
+  font-size: 24px;
+  padding-left: 10px;
+}
