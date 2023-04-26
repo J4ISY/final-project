@@ -21,7 +21,7 @@ function LandingPage() {
 
                     {/*Top section of main section*/}
 
-                    <div className="main-top" id='main'>
+                    <div className="main-top">
                         <h2 className="first">Wygrywanie zaczyna się</h2>
                         <h2 className="second">w głowie!</h2>
                         <p className="main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad
@@ -33,7 +33,7 @@ function LandingPage() {
                             <a href="#" className="main-social-links">
                                 <i className="fa-brands fa-instagram fa-2xl main-ig"></i>
                             </a>
-                            <a href="#main" className="main-contact-btn">Kontakt</a>
+                            <a href="#" className="main-contact-btn">Kontakt</a>
                         </div>
                     </div>
 
@@ -82,6 +82,24 @@ function LandingPage() {
                     </div>
                 </div>
             </main>
+
+            {/*References section*/}
+
+            <div className="ref">
+                <div className="ref__wrapper">
+                    <h5 className="ref-title">Skorzystali z mojej pomocy:</h5>
+                    <div className="ref-photos">
+                        <img src="https://via.placeholder.com/150x150" alt="Logo of a club" className="ref-photo"/>
+                        <img src="https://via.placeholder.com/150x150" alt="Logo of a club" className="ref-photo"/>
+                        <img src="https://via.placeholder.com/150x150" alt="Logo of a club" className="ref-photo"/>
+                        <img src="https://via.placeholder.com/150x150" alt="Logo of a club" className="ref-photo"/>
+                        <img src="https://via.placeholder.com/150x150" alt="Logo of a club" className="ref-photo"/>
+                        <img src="https://via.placeholder.com/150x150" alt="Logo of a club" className="ref-photo"/>
+                        <img src="https://via.placeholder.com/150x150" alt="Logo of a club" className="ref-photo"/>
+                        <img src="https://via.placeholder.com/150x150" alt="Logo of a club" className="ref-photo"/>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

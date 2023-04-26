@@ -1,6 +1,13 @@
+// Fonts, variables and reset
+
 @import 'generic/normalize';
 @import 'settings/colorsFonts';
+
+// Template for whole site
 @import 'elements/template/header';
 @import 'elements/template/footer';
+
+// Landing Page
 @import 'elements/landingPage/heroSection';
 @import 'elements/landingPage/mainSection';
+@import 'elements/landingPage/refSection';
