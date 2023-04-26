@@ -40,15 +40,22 @@ function LandingPage() {
                     {/*Mid section of main section*/}
 
                     <div className="main-mid">
-                        <div className="main-offer">
+                        <div className="main-offer main-column">
                             <img src="https://via.placeholder.com/350x350" alt="" className="offer-img"/>
-                            <input type="button" value="" className="offer-button"/>
+                            <a href="#" className="offer-link main-mid-link">Oferta</a>
                         </div>
-                        <div className="main-gallery">
+
+                        <div className="main-blog main-column">
+                            <img src="https://via.placeholder.com/350x350" alt="" className="blog-img"/>
+                            <a href="#" className="blog-link main-mid-link">Blog</a>
+                        </div>
+
+                        <div className="main-gallery main-column">
                             <img src="https://via.placeholder.com/350x350" alt="" className="gallery-img"/>
-                            <input type="button" value="" className="gallery-button"/>
+                            <a href="#" className="gallery-link main-mid-link">Galeria</a>
                         </div>
                     </div>
+
 
                     {/*Bottom section of main section*/}
 
@@ -60,7 +67,7 @@ function LandingPage() {
                 </div>
             </main>
         </>
-    );
+    )
 }
 
 export default LandingPage;

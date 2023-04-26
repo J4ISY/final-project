@@ -9,6 +9,8 @@
 .main__wrapper {
 }
 
+// Top Section
+
 .main-top {
   display: flex;
   //justify-content: flex-end;
@@ -17,22 +19,27 @@
   border: 1px solid green;
   padding-bottom: 75px;
   padding-right: 46px;
+
   .first {
     color: white;
     font-size: 72px;
     margin-bottom: 0;
+
   }
+
   .second {
     color: $hoverColor;
     font-size: 72px;
     margin-top: 0;
   }
+
   .main-text {
     font-size: 36px;
     text-align: right;
     width: 25%;
     color: white;
   }
+
   .main-social-button {
     //border: 3px solid orange;
     padding-top: 20px;
@@ -44,13 +51,16 @@
     .main-social-links {
       font-size: 30px;
       color: white;
+
       .main-fb {
         margin-right: 15px;
       }
+
       .main-ig {
         margin-right: 40px
       }
     }
+
     .main-contact-btn {
       background-color: transparent;
       border: 4px solid $hoverColor;
@@ -62,6 +72,7 @@
       text-transform: uppercase;
       transition: all 0.3s;
     }
+
     .main-contact-btn:hover {
       border-color: white;
       color: white;
@@ -70,22 +81,68 @@
   }
 }
 
+// Mid Section
+
 .main-mid {
-  border: 3px solid yellow;
+  display: flex;
+  justify-content: space-evenly;
+  .main-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .main-mid-link {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $hoverColor;
+    border: 3px solid $hoverColor;
+    padding: 10px 40px;
+    border-radius: 30px;
+    transition: all 0.3s;
+  }
+  .main-mid-link:hover {
+    border-color: white;
+    color: white;
+    background-color: $hoverColor;
+  }
+
   .main-offer {
     .offer-img {
       border: 3px solid darkred;
     }
+    .offer-link {
+    }
   }
+
+  .main-blog {
+    margin-top: 200px;
+    .blog-img {
+      border: 3px solid darkred;
+    }
+    .blog-link {
+    }
+  }
+
   .main-gallery {
-      .gallery-img {
-        border: 3px solid darkred;
-      }
+
+    .gallery-img {
+      border: 3px solid darkred;
+    }
+    .gallery-link{
+    }
   }
 }
 
+// Bottom Section
+
 .main-bottom {
   border: 3px solid blue;
+
   .client-photo {
     border: 3px solid darkred;
   }
