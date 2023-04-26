@@ -12,9 +12,7 @@ function Header() {
             </ul>
           </nav>
           <div className="logo">
-            <a href="/" className="logo__link">
-              {/*<img src="/src/assets/images/main_logo.png" alt="Logo Marciniak Trening Mentalny" className="logo__img"/>*/}
-            </a>
+            <a href="/" className="logo__link"></a>
           </div>
           <nav className="nav-header nav-right">
             <ul className='ul-header ul-header-right'>
