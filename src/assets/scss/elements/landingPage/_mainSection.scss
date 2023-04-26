@@ -12,11 +12,11 @@
 // Top Section
 
 .main-top {
+  //border: 1px solid green;
   display: flex;
   //justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
-  border: 1px solid green;
   padding-bottom: 75px;
   padding-right: 46px;
 
@@ -86,6 +86,7 @@
 .main-mid {
   display: flex;
   justify-content: space-evenly;
+
   .main-column {
     display: flex;
     justify-content: center;
@@ -105,6 +106,7 @@
     border-radius: 30px;
     transition: all 0.3s;
   }
+
   .main-mid-link:hover {
     border-color: white;
     color: white;
@@ -114,16 +116,31 @@
   .main-offer {
     .offer-img {
       border: 3px solid darkred;
+      width: 350px;
+      height: 350px;
+      background-image: url("https://via.placeholder.com/350x350");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
+
     .offer-link {
     }
   }
 
   .main-blog {
     margin-top: 200px;
+
     .blog-img {
       border: 3px solid darkred;
+      width: 350px;
+      height: 350px;
+      background-image: url("https://via.placeholder.com/350x350");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
+
     .blog-link {
     }
   }
@@ -132,8 +149,15 @@
 
     .gallery-img {
       border: 3px solid darkred;
+      width: 350px;
+      height: 350px;
+      background-image: url("https://via.placeholder.com/350x350");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
-    .gallery-link{
+
+    .gallery-link {
     }
   }
 }
@@ -141,9 +165,51 @@
 // Bottom Section
 
 .main-bottom {
-  border: 3px solid blue;
+  //border: 3px solid blue;
+  width: 100%;
+  margin-top: 120px;
+  padding-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  .client-photo-container {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    .client-photo {
+      border: 3px solid darkred;
+      width: 500px;
+      height: 500px;
+      background-image: url("https://via.placeholder.com/500x500");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      z-index: 50;
+      position: relative;
+    }
+    //.client-photo::before {
+    //  content: "";
+    //  display: block;
+    //  background-image: url("/src/assets/images/dot.png");
+    //  background-size: cover;
+    //  background-position: center;
+    //  z-index: -1;
+    //  position: absolute;
+    //  width: 300px;
+    //  height: 300px;
+    //  left: 150px;
+    //}
+  }
 
-  .client-photo {
-    border: 3px solid darkred;
+  .bottom-description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .bottom-title {
+      font-size: 64px;
+    }
+    .bottom-text {
+      font-size: 24px;
+      width: 520px;
+    }
   }
 }

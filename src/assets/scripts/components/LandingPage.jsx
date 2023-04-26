@@ -41,17 +41,20 @@ function LandingPage() {
 
                     <div className="main-mid">
                         <div className="main-offer main-column">
-                            <img src="https://via.placeholder.com/350x350" alt="" className="offer-img"/>
+                            <div className="offer-img"></div>
+                            {/*<img src="https://via.placeholder.com/350x350" alt="" className="offer-img"/>*/}
                             <a href="#" className="offer-link main-mid-link">Oferta</a>
                         </div>
 
                         <div className="main-blog main-column">
-                            <img src="https://via.placeholder.com/350x350" alt="" className="blog-img"/>
+                            <div className="blog-img"></div>
+                            {/*<img src="https://via.placeholder.com/350x350" alt="" className="blog-img"/>*/}
                             <a href="#" className="blog-link main-mid-link">Blog</a>
                         </div>
 
                         <div className="main-gallery main-column">
-                            <img src="https://via.placeholder.com/350x350" alt="" className="gallery-img"/>
+                            <div className="gallery-img"></div>
+                            {/*<img src="https://via.placeholder.com/350x350" alt="" className="gallery-img"/>*/}
                             <a href="#" className="gallery-link main-mid-link">Galeria</a>
                         </div>
                     </div>
@@ -60,9 +63,22 @@ function LandingPage() {
                     {/*Bottom section of main section*/}
 
                     <div className="main-bottom">
-                        <img src="https://via.placeholder.com/300x400" alt="" className="client-photo"/>
-                        <h3 className="bottom-title"></h3>
-                        <p className="bottom-text"></p>
+                        <div className="client-photo-container">
+                            {/*<img src="https://via.placeholder.com/500x500" alt="" className="client-photo"/>*/}
+                            <div className="client-photo"></div>
+                        </div>
+                        <div className="bottom-description">
+                            <h3 className="bottom-title">Kim jestem?</h3>
+                            <p className="bottom-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit
+                                anim id est laborum.</p>
+                        </div>
                     </div>
                 </div>
             </main>
