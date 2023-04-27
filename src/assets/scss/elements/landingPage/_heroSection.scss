@@ -1,14 +1,8 @@
-#root {
-  width: 100%;
-  height: 100%;
-}
-
 .hero {
   width: 100%;
   height: 83vh;
 }
 .hero__wrapper {
-  //background-image: url('https://via.placeholder.com/1000x500'); //Placeholder photo
   background-image: url('/src/assets/images/hero__photo.png'); //Dodać opacity przd wrzuceniem tu zdjęcia :)
   background-size: cover;
   background-position: center;
