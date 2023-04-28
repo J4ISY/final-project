@@ -1,217 +1,263 @@
 .main {
   width: 100%;
-  background-image: url('https://via.placeholder.com/2000x2000');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
 
-.main__wrapper {
-}
 
-// Top Section
+  // Top Section
+  .main-top {
+    position: relative;
+    overflow: hidden;
 
-.main-top {
-  //border: 1px solid green;
-  display: flex;
-  //justify-content: flex-end;
-  align-items: flex-end;
-  flex-direction: column;
-  padding-bottom: 75px;
-  padding-right: 46px;
+    .main-top-content {
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column;
+      padding-bottom: 75px;
+      padding-right: 46px;
 
-  .first {
-    color: white;
-    font-size: 72px;
-    margin-bottom: 0;
-
-  }
-
-  .second {
-    color: $hoverColor;
-    font-size: 72px;
-    margin-top: 0;
-  }
-
-  .main-text {
-    font-size: 36px;
-    text-align: right;
-    width: 25%;
-    color: white;
-  }
-
-  .main-social-button {
-    //border: 3px solid orange;
-    padding-top: 20px;
-    width: 23%;
-    margin-right: 120px;
-    //display: flex;
-    //justify-content: space-between;
-    //align-items: center;
-    .main-social-links {
-      font-size: 30px;
-      color: white;
-
-      .main-fb {
-        margin-right: 15px;
+      .first {
+        font-size: 72px;
+        margin-bottom: 0;
+        color: $hoverColor;
+        text-transform: uppercase;
       }
 
-      .main-ig {
-        margin-right: 40px
+      .main-text {
+        font-size: 36px;
+        text-align: right;
+        width: 25%;
+        color: white;
+      }
+
+      .main-social-button {
+        //border: 3px solid orange;
+        padding-top: 20px;
+        width: 23%;
+        margin-right: 120px;
+        //display: flex;
+        //justify-content: space-between;
+        //align-items: center;
+        .main-social-links {
+          font-size: 30px;
+          color: white;
+
+          .main-fb {
+            margin-right: 15px;
+          }
+
+          .main-ig {
+            margin-right: 40px
+          }
+        }
+
+        .main-contact-btn {
+          background-color: transparent;
+          border: 4px solid $hoverColor;
+          border-radius: 25px;
+          padding: 13px 50px;
+          font-size: 30px;
+          text-decoration: none;
+          color: $hoverColor;
+          text-transform: uppercase;
+          transition: all 0.3s;
+        }
+
+        .main-contact-btn:hover {
+          border-color: white;
+          color: white;
+          background-color: $hoverColor;
+        }
       }
     }
+  }
 
-    .main-contact-btn {
-      background-color: transparent;
-      border: 4px solid $hoverColor;
-      border-radius: 25px;
-      padding: 13px 50px;
-      font-size: 30px;
-      text-decoration: none;
-      color: $hoverColor;
-      text-transform: uppercase;
-      transition: all 0.3s;
+  // Mid Section
+
+  .main-mid {
+    position: relative;
+    overflow: hidden;
+
+    .main-mid-content {
+      display: flex;
+      justify-content: space-evenly;
+
+      .main-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .main-mid-link {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $hoverColor;
+        border: 3px solid $hoverColor;
+        padding: 10px 40px;
+        border-radius: 30px;
+        transition: all 0.3s;
+      }
+
+      .main-mid-link:hover {
+        border-color: white;
+        color: white;
+        background-color: $hoverColor;
+      }
+
+      .main-offer {
+        .offer-img {
+          //border: 3px solid darkred;
+          width: 350px;
+          height: 350px;
+          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/conversation.jpg");
+          background-position: center right;
+          background-size: cover;
+        }
+
+        .offer-link {
+        }
+      }
+
+      .main-blog {
+        margin-top: 200px;
+
+        .blog-img {
+          //border: 3px solid darkred;
+          width: 350px;
+          height: 350px;
+          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/siteImg/blog.jpg");
+          background-position: center;
+          background-size: cover;
+        }
+
+        .blog-link {
+        }
+      }
+
+      .main-gallery {
+
+        .gallery-img {
+          //border: 3px solid darkred;
+          width: 350px;
+          height: 350px;
+          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/winner2.jpg");
+          background-position: center;
+          background-size: cover;
+        }
+
+        .gallery-link {
+        }
+      }
     }
+  }
 
-    .main-contact-btn:hover {
-      border-color: white;
-      color: white;
-      background-color: $hoverColor;
+  // Bottom Section
+
+  .main-bottom {
+    position: relative;
+    overflow: hidden;
+    .main-bottom-content {
+      //border: 3px solid blue;
+      width: 100%;
+      padding-top: 120px;
+      padding-bottom: 200px;
+      display: flex;
+      justify-content: center;
+
+      .client-photo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 50px;
+
+        .client-photo {
+          //border: 3px solid darkred;
+          width: 500px;
+          height: 500px;
+          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/siteImg/lion-staring-v2.jpg");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          z-index: 50;
+          position: relative;
+        }
+
+        //.client-photo::before {
+        //  content: "";
+        //  display: block;
+        //  background-image: url("/src/assets/images/dot.png");
+        //  background-size: cover;
+        //  background-position: center;
+        //  z-index: -1;
+        //  position: absolute;
+        //  width: 300px;
+        //  height: 300px;
+        //  left: 150px;
+        //}
+      }
+
+      .bottom-description {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .bottom-title {
+          font-size: 64px;
+          color: white;
+        }
+
+        .bottom-text {
+          font-size: 24px;
+          width: 520px;
+          color: white;
+        }
+      }
     }
   }
 }
 
-// Mid Section
+// Opacity dla main-top
 
-.main-mid {
-  display: flex;
-  justify-content: space-evenly;
-
-  .main-column {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .main-mid-link {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: $hoverColor;
-    border: 3px solid $hoverColor;
-    padding: 10px 40px;
-    border-radius: 30px;
-    transition: all 0.3s;
-  }
-
-  .main-mid-link:hover {
-    border-color: white;
-    color: white;
-    background-color: $hoverColor;
-  }
-
-  .main-offer {
-    .offer-img {
-      border: 3px solid darkred;
-      width: 350px;
-      height: 350px;
-      background-image: url("https://via.placeholder.com/350x350");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .offer-link {
-    }
-  }
-
-  .main-blog {
-    margin-top: 200px;
-
-    .blog-img {
-      border: 3px solid darkred;
-      width: 350px;
-      height: 350px;
-      background-image: url("https://via.placeholder.com/350x350");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .blog-link {
-    }
-  }
-
-  .main-gallery {
-
-    .gallery-img {
-      border: 3px solid darkred;
-      width: 350px;
-      height: 350px;
-      background-image: url("https://via.placeholder.com/350x350");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .gallery-link {
-    }
-  }
-}
-
-// Bottom Section
-
-.main-bottom {
-  //border: 3px solid blue;
+.main-top::before {
+  content: "";
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('/src/assets/images/siteImg/lion-lying-down-small.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: .7;
+  position: absolute;
   width: 100%;
-  margin-top: 120px;
-  padding-bottom: 200px;
-  display: flex;
-  justify-content: center;
-  .client-photo-container {
-    display: flex;
-    justify-content: center;
-    margin-right: 50px;
-    .client-photo {
-      border: 3px solid darkred;
-      width: 500px;
-      height: 500px;
-      background-image: url("https://via.placeholder.com/500x500");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      z-index: 50;
-      position: relative;
-    }
-    //.client-photo::before {
-    //  content: "";
-    //  display: block;
-    //  background-image: url("/src/assets/images/dot.png");
-    //  background-size: cover;
-    //  background-position: center;
-    //  z-index: -1;
-    //  position: absolute;
-    //  width: 300px;
-    //  height: 300px;
-    //  left: 150px;
-    //}
-  }
+  height: 100%;
+  z-index: -1;
+}
 
-  .bottom-description {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    .bottom-title {
-      font-size: 64px;
-      color: white;
-    }
-    .bottom-text {
-      font-size: 24px;
-      width: 520px;
-      color: white;
-    }
-  }
+// Opacity dla main-mid
+
+.main-mid::before {
+  content: "";
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+  background-size: cover;
+  background-position: center;
+  opacity: .7;
+  position: absolute;
+  width: 100%;
+  height: 101%;
+  z-index: -1;
+}
+
+// Opacity dla main-bottom
+.main-bottom::before {
+  content: "";
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)), url('/src/assets/images/siteImg/lion-staring.jpg');
+  background-size: cover;
+  background-position: top;
+  opacity: .7;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
