@@ -5,7 +5,7 @@ function Header() {
     function mobileMenu() {
         mobileNav.classList.toggle('active');
         burgerBtn.classList.toggle('active');
-        console.log('test')
+        console.log('test');
     }
 
     return (
