@@ -12,7 +12,7 @@
 
   .logo__link {
     .header-logo {
-      width: 400px;
+      width: 150px;
     }
   }
 
@@ -142,6 +142,7 @@
         width: 350px;
         margin-right: 2px;
         margin-left: 0px;
+        z-index: 999;
 
         .li-header {
             width: 350px;

@@ -89,9 +89,10 @@ function LandingPage() {
 
             <div className="ref">
                 <div className="ref__wrapper">
-                    <h5 className="ref-title">Skorzystali z mojej pomocy:</h5>
+                    <h5 className="ref-title">Skorzystali z mojego wsparcia:</h5>
                     <div className="ref-photos">
                         <img src="src/assets/images/pogonlogo.png" alt="Logo of a club" className="ref-photo"/>
+                        <img src="src/assets/images/pogonakademialogo.png" alt="Logo of a club" className="ref-photo"/>
                         <img src="src/assets/images/balticalogo.png" alt="Logo of a club" className="ref-photo baltica"/>
                         <img src="src/assets/images/pzblogo.png" alt="Logo of a club" className="ref-photo"/>
                         <img src="src/assets/images/bkslogo.png" alt="Logo of a club" className="ref-photo"/>
