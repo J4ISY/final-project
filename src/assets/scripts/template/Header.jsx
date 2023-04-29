@@ -12,7 +12,7 @@ function Header() {
         <>
             <header className="header">
                 <a href="/" className="logo__link">
-                    <img src="/src/assets/images/trenerliderlogo.jpg" alt="Marciniak logo" className='header-logo'/>
+                    <img src="/src/assets/images/imgUse/trenerliderlogo.jpg" alt="Marciniak logo" className='header-logo'/>
                 </a>
                 <nav className="nav-header">
                     <ul className='ul-header'>

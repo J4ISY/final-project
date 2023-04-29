@@ -91,14 +91,14 @@ function LandingPage() {
                 <div className="ref__wrapper">
                     <h5 className="ref-title">Skorzystali z mojego wsparcia:</h5>
                     <div className="ref-photos">
-                        <img src="src/assets/images/pogonlogo.png" alt="Logo of a club" className="ref-photo"/>
-                        <img src="src/assets/images/pogonakademialogo.png" alt="Logo of a club" className="ref-photo"/>
-                        <img src="src/assets/images/balticalogo.png" alt="Logo of a club" className="ref-photo baltica"/>
-                        <img src="src/assets/images/pzblogo.png" alt="Logo of a club" className="ref-photo"/>
-                        <img src="src/assets/images/bkslogo.png" alt="Logo of a club" className="ref-photo"/>
-                        <img src="src/assets/images/espadonlogo.png" alt="Logo of a club" className="ref-photo"/>
-                        <img src="src/assets/images/kusylogo.png" alt="Logo of a club" className="ref-photo"/>
-                        <img src="src/assets/images/olimpialogo.png" alt="Logo of a club" className="ref-photo"/>
+                        <img src="src/assets/images/imgUse/pogonlogo.png" alt="Logo of a club" className="ref-photo"/>
+                        <img src="src/assets/images/imgUse/pogonakademialogo.png" alt="Logo of a club" className="ref-photo"/>
+                        <img src="src/assets/images/imgUse/balticalogo.png" alt="Logo of a club" className="ref-photo baltica"/>
+                        <img src="src/assets/images/imgUse/pzblogo.png" alt="Logo of a club" className="ref-photo"/>
+                        <img src="src/assets/images/imgUse/bkslogo.png" alt="Logo of a club" className="ref-photo"/>
+                        <img src="src/assets/images/imgUse/espadonlogo.png" alt="Logo of a club" className="ref-photo"/>
+                        <img src="src/assets/images/imgUse/kusylogo.png" alt="Logo of a club" className="ref-photo"/>
+                        <img src="src/assets/images/imgUse/olimpialogo.png" alt="Logo of a club" className="ref-photo"/>
                         {/*<img src="https://via.placeholder.com/150x150" alt="Logo of a club" className="ref-photo"/>*/}
                     </div>
                 </div>
