@@ -11,8 +11,10 @@
   padding-right: 48px;
 
   .logo__link {
+    display: flex;
+    align-items: center;
     .header-logo {
-      width: 150px;
+      width: 130px;
     }
   }
 
@@ -93,15 +95,9 @@
 
 @media only screen and (max-width: 1000px) {
   .header {
-    .logo__link {
-      .header-logo {
-        width: 300px;
-      }
-    }
 
     .burger {
       display: block;
-      margin-top: 25px;
       transition: .3 ease-in-out;
     }
 
@@ -145,7 +141,7 @@
         z-index: 999;
 
         .li-header {
-            width: 350px;
+          width: 350px;
           text-align: center;
 
           .nav__link {
@@ -170,21 +166,13 @@
   }
 }
 
-@media only screen and (max-width: 910px) {
-    .header {
-      .nav-header {
-        .ul-header {
-          left: 100px;
-        }
-      }
-    }
-}
-
 @media only screen and (max-width: 870px) {
   .header {
-    .nav-header {
-      .ul-header {
-        left: 80px;
+    .logo__link {
+      display: flex;
+      align-items: center;
+      .header-logo {
+        width: 120px;
       }
     }
   }
@@ -220,6 +208,20 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .header {
+
+    .nav-header {
+      .ul-header {
+
+        .li-header {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 760px) {
   .header {
 
@@ -233,6 +235,7 @@
         left: -350px;
         right: 0;
         margin-left: 10px;
+
         .li-header {
           width: 100%;
         }
@@ -241,13 +244,18 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .header {
     .logo__link {
       .header-logo {
-        width: 200px;
+        width: 120px;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
 
     .nav-header {
       .ul-header {
@@ -288,11 +296,6 @@
 
 @media only screen and (max-width: 350px) {
   .header {
-    .logo__link {
-      .header-logo {
-        width: 170px;
-      }
-    }
 
     .nav-header {
       .ul-header {
@@ -334,7 +337,7 @@
   .header {
     .nav-header {
       .ul-header {
-          height: 83vh;
+        height: 83vh;
       }
     }
   }

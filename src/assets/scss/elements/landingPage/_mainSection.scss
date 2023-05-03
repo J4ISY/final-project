@@ -3,42 +3,46 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 
 
   // Top Section
   .main-top {
     position: relative;
     overflow: hidden;
+    height: 800px;
 
     .main-top-content {
       display: flex;
       align-items: flex-end;
       flex-direction: column;
-      padding-bottom: 75px;
-      padding-right: 46px;
+      margin-bottom: 75px;
+      margin-right: 45px;
 
       .first {
-        font-size: 72px;
+        font-size: 78px;
         margin-bottom: 0;
         color: $hoverColor;
         text-transform: uppercase;
+        text-shadow: 5px 3px 10px rgba(66, 68, 90, 1);
       }
 
       .main-text {
-        font-size: 36px;
+        font-size: 40px;
         text-align: right;
-        width: 25%;
+        width: 30%;
         color: white;
       }
 
       .main-social-button {
         //border: 3px solid orange;
-        padding-top: 20px;
-        width: 23%;
-        margin-right: 120px;
-        //display: flex;
-        //justify-content: space-between;
-        //align-items: center;
+        width: 100%;
+        margin-right: 100px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 100px;
+
         .main-social-links {
           font-size: 30px;
           color: white;
@@ -78,10 +82,15 @@
   .main-mid {
     position: relative;
     overflow: hidden;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .main-mid-content {
       display: flex;
       justify-content: space-evenly;
+      width: 100%;
 
       .main-column {
         display: flex;
@@ -114,7 +123,7 @@
           //border: 3px solid darkred;
           width: 350px;
           height: 350px;
-          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/conversation.jpg");
+          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/conversation.jpg");
           background-position: center right;
           background-size: cover;
         }
@@ -130,7 +139,7 @@
           //border: 3px solid darkred;
           width: 350px;
           height: 350px;
-          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/siteImg/blog.jpg");
+          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/blog.jpg");
           background-position: center;
           background-size: cover;
         }
@@ -145,7 +154,7 @@
           //border: 3px solid darkred;
           width: 350px;
           height: 350px;
-          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/winner2.jpg");
+          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/winner2.jpg");
           background-position: center;
           background-size: cover;
         }
@@ -161,11 +170,14 @@
   .main-bottom {
     position: relative;
     overflow: hidden;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+
     .main-bottom-content {
       //border: 3px solid blue;
       width: 100%;
-      padding-top: 120px;
-      padding-bottom: 200px;
+      padding-bottom: 100px;
       display: flex;
       justify-content: center;
 
@@ -179,26 +191,13 @@
           //border: 3px solid darkred;
           width: 500px;
           height: 500px;
-          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/siteImg/lion-staring-v2.jpg");
+          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/lion-staring-v2.jpg");
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
           z-index: 50;
           position: relative;
         }
-
-        //.client-photo::before {
-        //  content: "";
-        //  display: block;
-        //  background-image: url("/src/assets/images/dot.png");
-        //  background-size: cover;
-        //  background-position: center;
-        //  z-index: -1;
-        //  position: absolute;
-        //  width: 300px;
-        //  height: 300px;
-        //  left: 150px;
-        //}
       }
 
       .bottom-description {
@@ -209,6 +208,8 @@
         .bottom-title {
           font-size: 64px;
           color: white;
+          margin-top: 0;
+          margin-bottom: 40px;
         }
 
         .bottom-text {
@@ -225,7 +226,7 @@
 
 .main-top::before {
   content: "";
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('/src/assets/images/siteImg/lion-lying-down-small.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('/src/assets/images/imgUse/lion-lying-down-small.jpg');
   background-size: cover;
   background-position: center;
   opacity: .7;
@@ -245,14 +246,14 @@
   opacity: .7;
   position: absolute;
   width: 100%;
-  height: 101%;
+  height: 100%;
   z-index: -1;
 }
 
 // Opacity dla main-bottom
 .main-bottom::before {
   content: "";
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)), url('/src/assets/images/siteImg/lion-staring.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)), url('/src/assets/images/imgUse/lion-staring.jpg');
   background-size: cover;
   background-position: top;
   opacity: .7;
@@ -260,4 +261,535 @@
   width: 100%;
   height: 100%;
   z-index: -1;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main {
+
+    .main-top {
+
+      .main-top-content {
+
+        .first {
+          text-align: right;
+        }
+
+        .main-text {
+          font-size: 35px;
+          width: 40%;
+        }
+
+        .main-social-button {
+          margin-right: 0;
+
+          .main-social-links {
+
+            .main-fb {
+            }
+
+            .main-ig {
+            }
+          }
+
+          .main-contact-btn {
+          }
+
+          .main-contact-btn:hover {
+          }
+        }
+      }
+    }
+
+    .main-mid {
+
+      .main-mid-content {
+
+        .main-column {
+        }
+
+        .main-mid-link {
+        }
+
+        .main-mid-link:hover {
+        }
+
+        .main-offer {
+          .offer-img {
+            width: 300px;
+            height: 300px;
+          }
+
+          .offer-link {
+          }
+        }
+
+        .main-blog {
+
+          .blog-img {
+            width: 300px;
+            height: 300px;
+          }
+
+          .blog-link {
+          }
+        }
+
+        .main-gallery {
+
+          .gallery-img {
+            width: 300px;
+            height: 300px;
+          }
+
+          .gallery-link {
+          }
+        }
+      }
+    }
+
+    .main-bottom {
+      height: 600px;
+      .main-bottom-content {
+      padding-bottom: 0;
+        .client-photo-container {
+
+          .client-photo {
+            width: 390px;
+            height: 390px;
+          }
+        }
+
+        .bottom-description {
+
+          .bottom-title {
+            font-size: 60px;
+          }
+
+          .bottom-text {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+
+    .main-top {
+      height: 700px;
+
+      .main-top-content {
+        margin-right: 35px;
+
+        .first {
+          text-shadow: 5px 3px 10px rgba(66, 68, 90, 1);
+          font-size: 58px;
+        }
+
+        .main-text {
+          font-size: 30px;
+          width: 40%;
+        }
+
+        .main-social-button {
+          margin-top: 50px;
+          margin-right: 0;
+
+          .main-social-links {
+            font-size: 25px;
+
+            .main-fb {
+            }
+
+            .main-ig {
+              margin-right: 20px;
+            }
+          }
+
+          .main-contact-btn {
+            padding: 8px 30px;
+            font-size: 25px;
+          }
+
+          .main-contact-btn:hover {
+          }
+        }
+      }
+    }
+
+    .main-mid {
+      height: 600px;
+
+      .main-mid-content {
+
+        .main-column {
+        }
+
+        .main-mid-link {
+        }
+
+        .main-mid-link:hover {
+        }
+
+        .main-offer {
+          .offer-img {
+            width: 220px;
+            height: 220px;
+          }
+
+          .offer-link {
+          }
+        }
+
+        .main-blog {
+          .blog-img {
+            width: 220px;
+            height: 220px;
+          }
+
+          .blog-link {
+          }
+        }
+
+        .main-gallery {
+
+          .gallery-img {
+            width: 220px;
+            height: 220px;
+          }
+
+          .gallery-link {
+          }
+        }
+      }
+    }
+
+    .main-bottom {
+      display: flex;
+      justify-content: center;
+      .main-bottom-content {
+        padding-bottom: 0;
+        padding-top: 0;
+        .client-photo-container {
+
+          .client-photo {
+            width: 330px;
+            height: 330px;
+          }
+        }
+
+        .bottom-description {
+
+          .bottom-title {
+            font-size: 55px;
+            margin-bottom: 20px;
+            margin-top: 0;
+          }
+
+          .bottom-text {
+            font-size: 20px;
+            width: 350px;
+          }
+        }
+      }
+    }
+
+  }
+  .main-top::before {
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .main {
+
+    .main-top {
+      height: 600px;
+
+      .main-top-content {
+        margin-right: 25px;
+
+        .first {
+          font-size: 35px;
+        }
+
+        .main-text {
+          width: 50%;
+          font-size: 28px;
+        }
+
+        .main-social-button {
+          margin-top: 30px;
+
+          .main-social-links {
+            font-size: 20px;
+
+            .main-fb {
+            }
+
+            .main-ig {;
+            }
+          }
+
+          .main-contact-btn {
+            padding: 8px 30px;
+            font-size: 20px;
+            border: 3px solid $hoverColor;
+          }
+
+          .main-contact-btn:hover {
+          }
+        }
+      }
+    }
+
+    .main-mid {
+      height: 1000px;
+
+      .main-mid-content {
+        flex-direction: column;
+
+        .main-column {
+        }
+
+        .main-mid-link {
+        }
+
+        .main-mid-link:hover {
+        }
+
+        .main-offer {
+          .offer-img {
+          }
+
+          .offer-link {
+          }
+        }
+
+        .main-blog {
+          margin-top: 0;
+
+          .blog-img {
+          }
+
+          .blog-link {
+          }
+        }
+
+        .main-gallery {
+
+          .gallery-img {
+          }
+
+          .gallery-link {
+          }
+        }
+      }
+    }
+
+    .main-bottom {
+        height: 800px;
+      .main-bottom-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .client-photo-container {
+          margin-right: 0;
+          margin-bottom: 20px;
+          .client-photo {
+          }
+        }
+
+        .bottom-description {
+
+          .bottom-title {
+            text-align: center;
+            margin: 0;
+          }
+
+          .bottom-text {
+            text-align: justify;
+          }
+        }
+      }
+    }
+
+  }
+  .main-top::before {
+    background-position: right;
+    opacity: 0.8;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('/src/assets/images/imgUse/lion-lying-down-small-short.jpg');
+  }
+  .main-mid::before {
+    height: 100%;
+    opacity: 0.8;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/src/assets/images/imgUse/lion-lying-down-small-short.jpg');
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .main {
+
+    .main-top {
+      height: 600px;
+
+      .main-top-content {
+        margin-right: 20px;
+
+        .first {
+        }
+
+        .main-text {
+          font-size: 26px;
+        }
+
+        .main-social-button {
+          margin-top: 35px;
+
+          .main-social-links {
+            .main-fb {
+            }
+
+            .main-ig {;
+            }
+          }
+
+          .main-contact-btn {
+          }
+
+          .main-contact-btn:hover {
+          }
+        }
+      }
+    }
+
+    .main-mid {
+      height: 1000px;
+
+      .main-mid-content {
+        .main-column {
+        }
+
+        .main-mid-link {
+        }
+
+        .main-mid-link:hover {
+        }
+
+        .main-offer {
+          .offer-img {
+          }
+
+          .offer-link {
+            padding: 8px 30px;
+            border: 2px solid $hoverColor;
+            font-size: 15px;
+          }
+        }
+
+        .main-blog {
+          .blog-img {
+          }
+
+          .blog-link {
+            padding: 8px 30px;
+            border: 2px solid $hoverColor;
+            font-size: 15px;
+          }
+        }
+
+        .main-gallery {
+
+          .gallery-img {
+          }
+
+          .gallery-link {
+            padding: 8px 30px;
+            border: 2px solid $hoverColor;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+  }
+  .main-top::before {
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .main {
+
+    .main-top {
+      height: 500px;
+
+      .main-top-content {
+        margin: 0;
+
+        .first {
+          font-size: 30px;
+          margin-right: 10px;
+        }
+
+        .main-text {
+          margin-right: 10px;
+          color: white;
+          width: 80%;
+        }
+
+        .main-social-button {
+          margin-right: 10px;
+          margin-top: 20px;
+
+          .main-social-links {
+            .main-fb {
+            }
+
+            .main-ig {;
+            }
+          }
+
+          .main-contact-btn {
+          }
+
+          .main-contact-btn:hover {
+          }
+        }
+      }
+    }
+
+    .main-bottom {
+      height: 750px;
+      .main-bottom-content {
+
+        .client-photo-container {
+
+          .client-photo {
+            width: 280px;
+            height: 280px;
+          }
+        }
+
+        .bottom-description {
+
+          .bottom-title {
+            font-size: 50px;
+          }
+
+          .bottom-text {
+            font-size: 18px;
+            width: 300px;
+          }
+        }
+      }
+    }
+
+
+  }
+  .main-top::before {
+  }
 }
