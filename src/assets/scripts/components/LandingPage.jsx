@@ -1,11 +1,19 @@
+import Contact from "../template/Contact.jsx";
+
+
 function LandingPage() {
+
+    function openForm() {
+        document.querySelector(".overlay-contact-form").style.display = "flex";
+    }
+
     return (
         <>
             {/*Hero Section*/}
             <div className="hero">
                 <div className="hero__wrapper">
                     <div className="hero__content">
-                        <h1 className="hero__title">Zwycięzcy zaczynają się w głowie</h1>
+                        <h1 className="hero__title">Przywództwo w sporcie</h1>
                         <p className="hero__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
                             aperiam consequatur cupiditate deserunt dolorum et eveniet ex expedita facere harum itaque
                             iure maiores minima natus necessitatibus nisi, non odio officia possimus quia quos repellat
@@ -15,11 +23,11 @@ function LandingPage() {
             </div>
 
             {/*Main Section*/}
-
+            <div className="overlay-contact-form">
+                <Contact />
+            </div>
             <main className="main">
-
                 {/*Top section of main section*/}
-
                 <div className="main-top">
                     <div className="main-top-content">
                         <h2 className="first">Przywództwo w sporcie</h2>
@@ -32,7 +40,11 @@ function LandingPage() {
                             <a href="#" className="main-social-links">
                                 <i className="fa-brands fa-instagram fa-2xl main-ig"></i>
                             </a>
-                            <a href="#" className="main-contact-btn">Kontakt</a>
+                            <button
+                                className="main-contact-btn"
+                                onClick={openForm}
+                            >Kontakt
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -92,8 +104,10 @@ function LandingPage() {
                     <h5 className="ref-title">Skorzystali z mojego wsparcia:</h5>
                     <div className="ref-photos">
                         <img src="src/assets/images/imgUse/pogonlogo.png" alt="Logo of a club" className="ref-photo"/>
-                        <img src="src/assets/images/imgUse/pogonakademialogo.png" alt="Logo of a club" className="ref-photo"/>
-                        <img src="src/assets/images/imgUse/balticalogo.png" alt="Logo of a club" className="ref-photo baltica"/>
+                        <img src="src/assets/images/imgUse/pogonakademialogo.png" alt="Logo of a club"
+                             className="ref-photo"/>
+                        <img src="src/assets/images/imgUse/balticalogo.png" alt="Logo of a club"
+                             className="ref-photo baltica"/>
                         <img src="src/assets/images/imgUse/pzblogo.png" alt="Logo of a club" className="ref-photo"/>
                         <img src="src/assets/images/imgUse/bkslogo.png" alt="Logo of a club" className="ref-photo"/>
                         <img src="src/assets/images/imgUse/espadonlogo.png" alt="Logo of a club" className="ref-photo"/>

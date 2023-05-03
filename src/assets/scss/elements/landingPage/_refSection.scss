@@ -37,3 +37,43 @@
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .ref {
+
+    .ref__wrapper {
+
+      .ref-title {}
+
+      .ref-photos {}
+
+      .ref-photo {
+        width: 120px;
+        height: 120px;
+      }
+      .baltica {
+        height: 80px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .ref {
+
+    .ref__wrapper {
+
+      .ref-title {}
+
+      .ref-photos {}
+
+      .ref-photo {
+        width: 80px;
+        height: 80px;
+      }
+      .baltica {
+        height: 50px;
+      }
+    }
+  }
+}

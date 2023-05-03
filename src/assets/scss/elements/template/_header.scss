@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     .header-logo {
-      width: 150px;
+      width: 130px;
     }
   }
 
@@ -168,9 +168,11 @@
 
 @media only screen and (max-width: 870px) {
   .header {
-    .nav-header {
-      .ul-header {
-        left: 80px;
+    .logo__link {
+      display: flex;
+      align-items: center;
+      .header-logo {
+        width: 120px;
       }
     }
   }
@@ -201,6 +203,20 @@
     .nav-header {
       .ul-header {
         left: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+
+    .nav-header {
+      .ul-header {
+
+        .li-header {
+          width: 100%;
+        }
       }
     }
   }
