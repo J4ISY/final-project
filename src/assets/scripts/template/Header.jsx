@@ -18,8 +18,8 @@ function Header() {
                     <ul className='ul-header'>
                         <li className='li-header'><a href="/" className="nav__link">Strona główna</a></li>
                         <li className='li-header'><a href="/oferta" className="nav__link">Oferta</a></li>
-                        <li className='li-header'><a href="#" className="nav__link">Blog</a></li>
-                        <li className='li-header'><a href="#" className="nav__link">Galeria</a></li>
+                        <li className='li-header'><a href="/blog" className="nav__link">Blog</a></li>
+                        <li className='li-header'><a href="/galeria" className="nav__link">Galeria</a></li>
                     </ul>
                 </nav>
 
