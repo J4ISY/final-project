@@ -5,6 +5,7 @@ import Footer from "./template/Footer.jsx";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import LandingPage from "./components/LandingPage.jsx";
 import OfferPage from "./components/OfferPage.jsx";
+import BlogPage from "./components/BlogPage.jsx";
 
 const router = createBrowserRouter([
     {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
     {
         path: '/oferta',
         element: <OfferPage />
+    },
+    {
+        path: '/blog',
+        element: <BlogPage />
     }
 ]);
 
