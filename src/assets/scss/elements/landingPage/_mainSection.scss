@@ -263,6 +263,77 @@
   z-index: -1;
 }
 
+@media only screen and (max-width: 1258px) {
+    .main {
+      .main-top {
+
+        .main-top-content {
+
+          .first {
+          }
+
+          .main-text {
+            width: 35%;
+          }
+
+          .main-social-button {
+
+            .main-social-links {
+
+              .main-fb {
+              }
+
+              .main-ig {
+              }
+            }
+
+            .main-contact-btn {
+            }
+
+            .main-contact-btn:hover {
+            }
+          }
+        }
+      }
+    }
+}
+
+@media only screen and (max-width: 1116px) {
+  .main {
+    .main-top {
+
+      .main-top-content {
+
+        .first {
+          text-align: right;
+        }
+
+        .main-text {
+          width: 47%;
+        }
+
+        .main-social-button {
+
+          .main-social-links {
+
+            .main-fb {
+            }
+
+            .main-ig {
+            }
+          }
+
+          .main-contact-btn {
+          }
+
+          .main-contact-btn:hover {
+          }
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .main {
 
@@ -372,6 +443,76 @@
       }
     }
 
+  }
+}
+
+@media only screen and (max-width: 984px) {
+  .main {
+    .main-top {
+
+      .main-top-content {
+
+        .first {
+        }
+
+        .main-text {
+          width: 45%;
+        }
+
+        .main-social-button {
+
+          .main-social-links {
+
+            .main-fb {
+            }
+
+            .main-ig {
+            }
+          }
+
+          .main-contact-btn {
+          }
+
+          .main-contact-btn:hover {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .main {
+    .main-top {
+
+      .main-top-content {
+
+        .first {
+        }
+
+        .main-text {
+          width: 55%;
+        }
+
+        .main-social-button {
+
+          .main-social-links {
+
+            .main-fb {
+            }
+
+            .main-ig {
+            }
+          }
+
+          .main-contact-btn {
+          }
+
+          .main-contact-btn:hover {
+          }
+        }
+      }
+    }
   }
 }
 
@@ -503,6 +644,41 @@
   }
 }
 
+@media only screen and (max-width: 542px) {
+  .main {
+    .main-top {
+
+      .main-top-content {
+
+        .first {
+        }
+
+        .main-text {
+          width: 55%;
+        }
+
+        .main-social-button {
+
+          .main-social-links {
+
+            .main-fb {
+            }
+
+            .main-ig {
+            }
+          }
+
+          .main-contact-btn {
+          }
+
+          .main-contact-btn:hover {
+          }
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .main {
 
@@ -627,6 +803,41 @@
     height: 100%;
     opacity: 0.8;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/src/assets/images/imgUse/lion-lying-down-small-short.jpg');
+  }
+}
+
+@media only screen and (max-width: 388px) {
+  .main {
+    .main-top {
+
+      .main-top-content {
+
+        .first {
+        }
+
+        .main-text {
+          width: 60%;
+        }
+
+        .main-social-button {
+
+          .main-social-links {
+
+            .main-fb {
+            }
+
+            .main-ig {
+            }
+          }
+
+          .main-contact-btn {
+          }
+
+          .main-contact-btn:hover {
+          }
+        }
+      }
+    }
   }
 }
 
@@ -791,5 +1002,40 @@
 
   }
   .main-top::before {
+  }
+}
+
+@media only screen and (max-width: 287px) {
+  .main {
+    .main-top {
+
+      .main-top-content {
+
+        .first {
+        }
+
+        .main-text {
+          width: 100%;
+        }
+
+        .main-social-button {
+
+          .main-social-links {
+
+            .main-fb {
+            }
+
+            .main-ig {
+            }
+          }
+
+          .main-contact-btn {
+          }
+
+          .main-contact-btn:hover {
+          }
+        }
+      }
+    }
   }
 }
