@@ -1,0 +1,143 @@
+.offer-page {
+  width: 100%;
+  box-sizing: border-box;
+
+  //.offer-header {
+  //  width: 100%;
+  //  .offer-header-img {
+  //    width: 100%;
+  //    height: 400px;
+  //    background-image: url('/src/assets/images/imgUse/offer-banner.jpg');
+  //    background-size: cover;
+  //    background-position: center;
+  //  }
+  //}
+
+  .offer-wrapper {
+    //border: 3px solid darkred;
+    //margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .offer-single {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: relative;
+      margin-top: 80px;
+      margin-bottom: 80px;
+
+      .single-img {
+        width: auto;
+        position: relative;
+        z-index: 120;
+
+        .img-img {
+          object-fit: cover;
+          object-position: center;
+          width: 350px;
+          height: 500px;
+          border-radius: 20px;
+        }
+      }
+
+      .content {
+        width: 50%;
+
+        .cat {
+          margin: 0;
+          color: $hoverColor;
+          font-size: 18px;
+        }
+
+        .offer-title {
+          color: $textColor;
+          font-size: 30px;
+          margin: 10px 0 0;
+        }
+
+        .offer-short-desc {
+          color: $textColor;
+          width: 80%;
+          font-size: 22px;
+          margin: 20px 0 50px;
+        }
+
+        .read-more {
+          text-decoration: none;
+          font-size: 24px;
+          color: $hoverColor;
+          border: 3px solid $hoverColor;
+          padding: 5px 20px;
+          border-radius: 25px;
+          transition: all .5s;
+        }
+      }
+
+      .read-more:hover {
+        border-color: unset;
+        background-color: $hoverColor;
+        color: white;
+      }
+
+      .content-left {
+        .cat {
+          text-align: right;
+        }
+        .offer-title {
+          text-align: right;
+        }
+        .offer-short-desc {
+          text-align: right;
+          width: 100%;
+        }
+        //.read-more {
+        //  align-self: flex-start; ZROBIĆ PRZYCISK
+        //}
+      }
+    }
+  }
+}
+
+.offer-single-top::after {
+  content: '';
+  position: absolute;
+  background-image: url('/src/assets/images/imgUse/Dot.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  top: 0;
+  right: 0;
+}
+
+.single-img-left::before {
+  content: '';
+  position: absolute;
+  background-image: url('/src/assets/images/imgUse/Dot.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  bottom: -50px;
+  left: -50px;
+  z-index: -1;
+}
+
+.single-img-right::before {
+  content: '';
+  position: absolute;
+  background-image: url('/src/assets/images/imgUse/Dot.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  bottom: -50px;
+  right: -50px;
+  z-index: -1;
+}
