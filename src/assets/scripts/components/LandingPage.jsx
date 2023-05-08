@@ -1,4 +1,5 @@
 import Contact from "../template/Contact.jsx";
+import {Link} from "react-router-dom";
 
 
 function LandingPage() {
@@ -34,12 +35,12 @@ function LandingPage() {
                         <p className="main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad
                             architecto cum dicta minima obcaecati odio saepe similique tempore.</p>
                         <div className="main-social-button">
-                            <a href="#" className="main-social-links">
+                            <Link to='https://www.facebook.com/profile.php?id=100090405374356' className="main-social-links" target='_blank'>
                                 <i className="fa-brands fa-square-facebook fa-2xl main-fb"></i>
-                            </a>
-                            <a href="#" className="main-social-links">
+                            </Link>
+                            <Link to='https://www.instagram.com/trener_lider_w_sporcie/' className="main-social-links" target='_blank'>
                                 <i className="fa-brands fa-instagram fa-2xl main-ig"></i>
-                            </a>
+                            </Link>
                             <button
                                 className="main-contact-btn"
                                 onClick={openForm}
@@ -55,20 +56,17 @@ function LandingPage() {
                     <div className="main-mid-content">
                         <div className="main-offer main-column">
                             <div className="offer-img main-img"></div>
-                            {/*<img src="https://via.placeholder.com/350x350" alt="" className="offer-img"/>*/}
-                            <a href="#" className="offer-link main-mid-link">Oferta</a>
+                            <Link to='/oferta' className="offer-link main-mid-link">Oferta</Link>
                         </div>
 
                         <div className="main-blog main-column">
                             <div className="blog-img main-img"></div>
-                            {/*<img src="https://via.placeholder.com/350x350" alt="" className="blog-img"/>*/}
-                            <a href="#" className="blog-link main-mid-link">Blog</a>
+                            <Link to='/blogs' className="blog-link main-mid-link">Blog</Link>
                         </div>
 
                         <div className="main-gallery main-column">
                             <div className="gallery-img main-img"></div>
-                            {/*<img src="https://via.placeholder.com/350x350" alt="" className="gallery-img"/>*/}
-                            <a href="#" className="gallery-link main-mid-link">Galeria</a>
+                            <Link to='/galeria' className="gallery-link main-mid-link">Galeria</Link>
                         </div>
                     </div>
                 </div>
@@ -78,7 +76,6 @@ function LandingPage() {
                 <div className="main-bottom">
                     <div className="main-bottom-content">
                         <div className="client-photo-container">
-                            {/*<img src="https://via.placeholder.com/500x500" alt="" className="client-photo"/>*/}
                             <div className="client-photo"></div>
                         </div>
                         <div className="bottom-description">
@@ -113,7 +110,6 @@ function LandingPage() {
                         <img src="src/assets/images/imgUse/espadonlogo.png" alt="Logo of a club" className="ref-photo"/>
                         <img src="src/assets/images/imgUse/kusylogo.png" alt="Logo of a club" className="ref-photo"/>
                         <img src="src/assets/images/imgUse/olimpialogo.png" alt="Logo of a club" className="ref-photo"/>
-                        {/*<img src="https://via.placeholder.com/150x150" alt="Logo of a club" className="ref-photo"/>*/}
                     </div>
                 </div>
             </div>
