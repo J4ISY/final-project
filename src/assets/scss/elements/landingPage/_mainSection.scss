@@ -352,7 +352,6 @@
     .main-top {
 
       .main-top-content {
-
         .main-text {
           width: 50%;
         }
@@ -914,67 +913,114 @@
   }
 }
 
-@media only screen and (max-width: 530px) {
+
+@media only screen and (max-width: 768px) {
   .main {
+
+    .main-top {
+      height: 700px;
+
+      .main-top-content {
+        margin-right: 35px;
+
+        .first {
+          text-shadow: 5px 3px 10px rgba(66, 68, 90, 1);
+          font-size: 58px;
+        }
+
+        .main-text {
+          font-size: 30px;
+          width: 40%;
+        }
+
+        .main-social-button {
+          margin-top: 50px;
+          margin-right: 0;
+
+          .main-social-links {
+            font-size: 25px;
+
+            .main-ig {
+              margin-right: 20px;
+            }
+          }
+
+          .main-contact-btn {
+            padding: 8px 30px;
+            font-size: 25px;
+          }
+
+          .main-contact-btn:hover {
+          }
+        }
+      }
+    }
+
     .main-mid {
+      height: 600px;
 
       .main-mid-content {
 
         .main-offer {
           .offer-img {
-            width: 150px;
-            height: 150px;
+            width: 220px;
+            height: 220px;
           }
         }
 
         .main-blog {
-
           .blog-img {
-            width: 150px;
-            height: 150px;
+            width: 220px;
+            height: 220px;
           }
         }
 
         .main-gallery {
 
           .gallery-img {
-            width: 150px;
-            height: 150px;
+            width: 220px;
+            height: 220px;
           }
         }
       }
     }
 
     .main-bottom {
+      display: flex;
+      justify-content: center;
 
       .main-bottom-content {
+        padding-bottom: 0;
+        padding-top: 0;
 
         .client-photo-container {
-          margin-right: 10px;
 
           .client-photo {
-            width: 250px;
-            height: 250px;
+            width: 330px;
+            height: 330px;
           }
         }
 
         .bottom-description {
 
           .bottom-title {
-            font-size: 35px;
+            font-size: 55px;
+            margin-bottom: 20px;
+            margin-top: 0;
           }
 
           .bottom-text {
-            font-size: 16px;
+            font-size: 20px;
+            width: 95%;
           }
         }
       }
     }
+
   }
-}
-
-@media only screen and (max-width: 490px) {
-
+  .main-top::before {
+    background-position: center;
+  }
 }
 
 @media only screen and (max-width: 470px) {
@@ -1212,6 +1258,41 @@
   }
 }
 
+@media only screen and (max-width: 388px) {
+  .main {
+    .main-top {
+
+      .main-top-content {
+
+        .first {
+        }
+
+        .main-text {
+          width: 60%;
+        }
+
+        .main-social-button {
+
+          .main-social-links {
+
+            .main-fb {
+            }
+
+            .main-ig {
+            }
+          }
+
+          .main-contact-btn {
+          }
+
+          .main-contact-btn:hover {
+          }
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 375px) {
   .main {
 
@@ -1414,7 +1495,6 @@
         .main-text {
           width: 100%;
         }
-
       }
     }
   }

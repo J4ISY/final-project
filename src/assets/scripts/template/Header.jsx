@@ -1,11 +1,10 @@
-const mobileNav = document.querySelector('.ul-header');
-const burgerBtn = document.querySelector('.burger');
-function Header() {
+import {useState} from "react";
 
+function Header() {
+    const [active, setActive] = useState("");
     function mobileMenu() {
-        mobileNav.classList.toggle('active');
-        burgerBtn.classList.toggle('active');
-        // console.log('test');
+        // console.log("test");
+        setActive(prev => prev ? "" : "active")
     }
 
     return (
@@ -15,17 +14,17 @@ function Header() {
                     <img src="/src/assets/images/logo-black.png" alt="Marciniak logo" className='header-logo'/>
                 </a>
                 <nav className="nav-header">
-                    <ul className='ul-header'>
+                    <ul className={`ul-header ${active}`}>
                         <li className='li-header'><a href="/" className="nav__link">Strona główna</a></li>
                         <li className='li-header'><a href="/oferta" className="nav__link">Oferta</a></li>
-                        <li className='li-header'><a href="/blog" className="nav__link">Blog</a></li>
+                        <li className='li-header'><a href={`/blogs`} className="nav__link">Blog</a></li>
                         <li className='li-header'><a href="/galeria" className="nav__link">Galeria</a></li>
                     </ul>
                 </nav>
 
                 <button
                     onClick={mobileMenu}
-                    className="burger">
+                    className={`burger ${active}`}>
                     <div className="line"></div>
                     <div className="line"></div>
                     <div className="line"></div>
