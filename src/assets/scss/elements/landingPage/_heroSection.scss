@@ -56,13 +56,16 @@
   .hero {
     display: flex;
     justify-content: center;
+
     .hero__wrapper {
       margin-right: 0;
       margin-left: 0;
       width: 90%;
 
+
       .hero__content {
-        width: 90%;
+        box-sizing: border-box;
+        width: 100%;
         .hero__title {
           background-color: rgba(255,255,255, .2);
         }
@@ -154,6 +157,21 @@
       }
     }
   }
+}
+
+@media only screen and (max-width: 480px) {
+    .hero {
+      .hero__wrapper {
+        .hero__content {
+          .hero__title {
+            font-size: 50px;
+          }
+          .hero__text {
+
+          }
+        }
+      }
+    }
 }
 
 @media only screen and (max-width: 425px) {
