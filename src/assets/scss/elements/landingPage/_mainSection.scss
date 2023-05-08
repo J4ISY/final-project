@@ -127,9 +127,6 @@
           background-position: center right;
           background-size: cover;
         }
-
-        .offer-link {
-        }
       }
 
       .main-blog {
@@ -143,9 +140,6 @@
           background-position: center;
           background-size: cover;
         }
-
-        .blog-link {
-        }
       }
 
       .main-gallery {
@@ -157,9 +151,6 @@
           background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/winner2.jpg");
           background-position: center;
           background-size: cover;
-        }
-
-        .gallery-link {
         }
       }
     }
@@ -369,9 +360,6 @@
 
         .client-photo-container {
           width: 50%;
-
-          .client-photo {
-          }
         }
 
         .bottom-description {
@@ -949,9 +937,6 @@
             padding: 8px 30px;
             font-size: 25px;
           }
-
-          .main-contact-btn:hover {
-          }
         }
       }
     }
@@ -1029,22 +1014,10 @@
 
       .main-mid-content {
 
-        .main-column {
-        }
-
-        .main-mid-link {
-        }
-
-        .main-mid-link:hover {
-        }
-
         .main-offer {
           .offer-img {
             width: 135px;
             height: 135px;
-          }
-
-          .offer-link {
           }
         }
 
@@ -1054,9 +1027,6 @@
             width: 135px;
             height: 135px;
           }
-
-          .blog-link {
-          }
         }
 
         .main-gallery {
@@ -1064,9 +1034,6 @@
           .gallery-img {
             width: 135px;
             height: 135px;
-          }
-
-          .gallery-link {
           }
         }
       }
@@ -1080,9 +1047,6 @@
     .main-top {
 
       .main-top-content {
-
-        .first {
-        }
 
         .main-text {
           width: 55%;
@@ -1116,21 +1080,12 @@
 
           .main-social-links {
             font-size: 20px;
-
-            .main-fb {
-            }
-
-            .main-ig {;
-            }
           }
 
           .main-contact-btn {
             padding: 8px 30px;
             font-size: 20px;
             border: 3px solid $hoverColor;
-          }
-
-          .main-contact-btn:hover {
           }
         }
       }
@@ -1142,22 +1097,10 @@
       .main-mid-content {
         flex-direction: column;
 
-        .main-column {
-        }
-
-        .main-mid-link {
-        }
-
-        .main-mid-link:hover {
-        }
-
         .main-offer {
           .offer-img {
             width: 200px;
             height: 200px;
-          }
-
-          .offer-link {
           }
         }
 
@@ -1168,9 +1111,6 @@
             width: 200px;
             height: 200px;
           }
-
-          .blog-link {
-          }
         }
 
         .main-gallery {
@@ -1178,9 +1118,6 @@
           .gallery-img {
             width: 200px;
             height: 200px;
-          }
-
-          .gallery-link {
           }
         }
       }
@@ -1246,13 +1183,9 @@
 
       .main-top-content {
 
-        .first {
-        }
-
         .main-text {
           width: 65%;
         }
-
       }
     }
   }
@@ -1264,29 +1197,8 @@
 
       .main-top-content {
 
-        .first {
-        }
-
         .main-text {
           width: 60%;
-        }
-
-        .main-social-button {
-
-          .main-social-links {
-
-            .main-fb {
-            }
-
-            .main-ig {
-            }
-          }
-
-          .main-contact-btn {
-          }
-
-          .main-contact-btn:hover {
-          }
         }
       }
     }
@@ -1302,9 +1214,6 @@
       .main-top-content {
         margin-right: 20px;
 
-        .first {
-        }
-
         .main-text {
           font-size: 26px;
         }
@@ -1312,19 +1221,6 @@
         .main-social-button {
           margin-top: 35px;
 
-          .main-social-links {
-            .main-fb {
-            }
-
-            .main-ig {;
-            }
-          }
-
-          .main-contact-btn {
-          }
-
-          .main-contact-btn:hover {
-          }
         }
       }
     }
@@ -1333,18 +1229,8 @@
       height: 1000px;
 
       .main-mid-content {
-        .main-column {
-        }
-
-        .main-mid-link {
-        }
-
-        .main-mid-link:hover {
-        }
 
         .main-offer {
-          .offer-img {
-          }
 
           .offer-link {
             padding: 8px 30px;
@@ -1354,8 +1240,6 @@
         }
 
         .main-blog {
-          .blog-img {
-          }
 
           .blog-link {
             padding: 8px 30px;
@@ -1365,9 +1249,6 @@
         }
 
         .main-gallery {
-
-          .gallery-img {
-          }
 
           .gallery-link {
             padding: 8px 30px;
@@ -1391,9 +1272,6 @@
         }
 
         .bottom-description {
-
-          .bottom-title {
-          }
 
           .bottom-text {
             font-size: 17px;
@@ -1431,20 +1309,6 @@
         .main-social-button {
           margin-right: 10px;
           margin-top: 20px;
-
-          .main-social-links {
-            .main-fb {
-            }
-
-            .main-ig {;
-            }
-          }
-
-          .main-contact-btn {
-          }
-
-          .main-contact-btn:hover {
-          }
         }
       }
     }
@@ -1475,10 +1339,6 @@
         }
       }
     }
-
-
-  }
-  .main-top::before {
   }
 }
 
