@@ -2,9 +2,11 @@ import {useState} from "react";
 
 function Header() {
     const [active, setActive] = useState("");
+    // const [hidden, setHidden] = useState("");
+
     function mobileMenu() {
         // console.log("test");
-        setActive(prev => prev ? "" : "active")
+        setActive(prev => prev ? "" : "active");
     }
 
     return (
@@ -13,7 +15,7 @@ function Header() {
                 <a href="/" className="logo__link">
                     <img src="/src/assets/images/logo-black.png" alt="Marciniak logo" className='header-logo'/>
                 </a>
-                <nav className="nav-header">
+                <nav className={`nav-header ${active}`}>
                     <ul className={`ul-header ${active}`}>
                         <li className='li-header'><a href="/" className="nav__link">Strona główna</a></li>
                         <li className='li-header'><a href="/oferta" className="nav__link">Oferta</a></li>
