@@ -1,11 +1,12 @@
 import {useState} from "react";
 
 function Header() {
+    // const [active, setActive] = useState("");
+    const [isActive, isSetActive] = useState(false);
     const [active, setActive] = useState("");
-    // const [hidden, setHidden] = useState("");
 
-    function mobileMenu() {
-        // console.log("test");
+    function toggleMenu() {
+        isSetActive(prevState => !prevState);
         setActive(prev => prev ? "" : "active");
     }
 
@@ -13,10 +14,10 @@ function Header() {
         <>
             <header className="header">
                 <a href="/" className="logo__link">
-                    <img src="/src/assets/images/logo-black.png" alt="Marciniak logo" className='header-logo'/>
+                    <img src="/src/assets/images/logo-black.png" alt="Przywództwo w sporcie logo" className='header-logo'/>
                 </a>
-                <nav className={`nav-header ${active}`}>
-                    <ul className={`ul-header ${active}`}>
+                <nav className={`nav-header ${isActive ? 'active' : 'hidden'}`}>
+                    <ul className={`ul-header ${isActive ? 'active' : 'hidden'}`}>
                         <li className='li-header'><a href="/" className="nav__link">Strona główna</a></li>
                         <li className='li-header'><a href="/oferta" className="nav__link">Oferta</a></li>
                         <li className='li-header'><a href={`/blogs`} className="nav__link">Blog</a></li>
@@ -25,7 +26,7 @@ function Header() {
                 </nav>
 
                 <button
-                    onClick={mobileMenu}
+                    onClick={toggleMenu}
                     className={`burger ${active}`}>
                     <div className="line"></div>
                     <div className="line"></div>
