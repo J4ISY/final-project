@@ -4,7 +4,7 @@ import Header from './template/Header.jsx'
 import Footer from "./template/Footer.jsx";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import LandingPage from "./components/LandingPage.jsx";
-import OfferPage from "./components/OfferPage.jsx";
+import OfferAll from "./components/OfferAll.jsx";
 import BlogPage from "./components/BlogPage.jsx";
 import Error from "./components/Error.jsx";
 import BlogAll from "./components/BlogAll.jsx";
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     },
     {
         path: '/oferta',
-        element: <OfferPage />
+        element: <OfferAll />
     },
     {
         path: '/blogs',

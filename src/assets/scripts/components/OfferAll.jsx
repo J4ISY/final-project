@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 
-function OfferPage() {
+function OfferAll() {
     return (
         <>
             <div className="offer-page">
@@ -94,4 +94,4 @@ function OfferPage() {
     );
 }
 
-export default OfferPage;
+export default OfferAll;
