@@ -25,18 +25,15 @@ export const blog = [
 ];
 
 function BlogAll() {
-    // const params = useParams();
 
     return (
         <>
             <section className="blog">
-                {/*tO JEST BLOG {params.blogId}*/}
                 <div className="container">
-                    {/*<h2 className="section-title">Blog</h2>*/}
                     <div className="blog-posts">
 
                         <div className="blog-post">
-                            <Link to='/blogs/1' className='blog-post-a'>
+                            <Link to={`/blogs/${blog[0].id}`} className='blog-post-a'>
                                 <img
                                     key={blog[0].id}
                                     src={blog[0].photo || null}
@@ -52,7 +49,7 @@ function BlogAll() {
                         </div>
 
                         <div className="blog-post">
-                            <Link to='/blogs/2' className='blog-post-a'>
+                            <Link to={`/blogs/${blog[1].id}`} className='blog-post-a'>
                                 <img
                                     key={blog[1].id}
                                     src={blog[1].photo || null}
@@ -67,7 +64,7 @@ function BlogAll() {
                         </div>
 
                         <div className="blog-post">
-                            <Link to='/blogs/3' className='blog-post-a'>
+                            <Link to={`/blogs/${blog[2].id}`} className='blog-post-a'>
                                 <img
                                     key={blog[2].id}
                                     src={blog[2].photo || null}
