@@ -23,7 +23,7 @@ function OfferAll() {
                                 pracy trenera napotkałeś na wyzwanie, potrzebujesz merytorycznej podpowiedzi z zakresu
                                 psychologii, zarządzania zespołem – ta oferta jest dla Ciebie.</p>
                             <div className="read-more">
-                                <Link to='/' className="read-more-btn">Czytaj dalej</Link>
+                                <Link to='/oferta/konsultacje-indywidualne' className="read-more-btn">Czytaj dalej</Link>
                             </div>
                         </div>
                     </div>
