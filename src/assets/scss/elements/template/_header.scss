@@ -21,7 +21,7 @@
 
   .nav-header {
     position: relative;
-    display: flex;
+    //display: flex;
     justify-content: space-between;
     align-items: center;
     width: 50%;
@@ -69,6 +69,13 @@
       }
     }
   }
+  .nav-header.hidden {
+    display: none;
+  }
+  .nav-header.active {
+    display: flex;
+  }
+
 
   // Hamburger menu styling
 

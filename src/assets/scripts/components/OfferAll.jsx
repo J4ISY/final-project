@@ -29,6 +29,10 @@ function OfferAll() {
                     </div>
 
                     <div className="offer-single offer-single-second">
+                        <div className="single-img-right single-img">
+                            <img src="/src/assets/images/imgUse/offer-conversation.jpg"
+                                 alt="zdjęcie konsultacje indywidualne" className="img-right img-img"/>
+                        </div>
                         <div className="content-left content">
                             <h6 className="cat">Trening mentalny</h6>
                             <h3 className="offer-title">LEADERSHIP COACHING – droga do świadomego przywództwa.</h3>
@@ -68,10 +72,14 @@ function OfferAll() {
                     </div>
 
                     <div className="offer-single offer-single-second">
+                        <div className="single-img-right single-img">
+                            <img src="/src/assets/images/imgUse/offer-conversation.jpg"
+                                 alt="zdjęcie konsultacje indywidualne" className="img-right img-img"/>
+                        </div>
                         <div className="content-left content">
                             <h6 className="cat">Online</h6>
                             <h3 className="offer-title">WARSZTATY, EBOOKI, SZKOLENIA</h3>
-                            <p className="offer-short-desc">Już niedługo pojawi się oferta umożliwiająca rozwijanie kompetencji miękkich. Pracujemy nad
+                            <p className="offer-short-desc">Już <span style={{fontWeight: 900}}>niedługo</span> pojawi się oferta umożliwiająca rozwijanie kompetencji miękkich. Pracujemy nad
                                 materiałami wspierającymi pracę trenerów w zakresie : komunikacji, budowania motywacji w
                                 zespole, zarządzania sytuacjami trudnymi, umiejętności udzielania informacji zwrotnej,
                                 zarządzania sztabem, radzenia sobie ze stresem i presją oraz skuteczną mową ciała trenera.
@@ -79,7 +87,7 @@ function OfferAll() {
                                 Warsztaty i szkolenia będą prowadzone online, dzięki czemu każdy będzie mógł rozwijać się w
                                 dogodnym dla siebie czasie i mieć swobodny dostęp do materiałów.</p>
                             <div className="read-more">
-                                <Link to='/' className="read-more-btn">Czytaj dalej</Link>
+                                {/*<Link to='/' className="read-more-btn">Czytaj dalej</Link>*/}
                             </div>
                         </div>
                         <div className="single-img-right single-img">
