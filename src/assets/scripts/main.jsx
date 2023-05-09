@@ -8,6 +8,7 @@ import OfferAll from "./components/OfferAll.jsx";
 import BlogPage from "./components/BlogPage.jsx";
 import Error from "./components/Error.jsx";
 import BlogAll from "./components/BlogAll.jsx";
+import OfferPage from "./components/OfferPage.jsx";
 
 const router = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
     {
         path: '/oferta',
         element: <OfferAll />
+    },
+    {
+        path: '/oferta/konsultacje-indywidualne',
+        element: <OfferPage />
     },
     {
         path: '/blogs',
