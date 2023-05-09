@@ -1,0 +1,91 @@
+@import "src/assets/scss/elements/landingPage/mainSection";
+
+.single-offer {
+  width: 100%;
+
+  .title-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F7F2;
+    position: relative;
+
+    .single-title {
+      width: 100%;
+      text-align: center;
+      color: #353535;
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    .single-back {
+      position: absolute;
+      right: 50px;
+      .arrow {
+        border: solid black;
+        border-width: 0 5px 5px 0;
+        display: inline-block;
+        padding: 10px;
+        transform: rotate(135deg);
+      }
+    }
+  }
+
+  .single-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 60px 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .single-photo-offer {
+      width: auto;
+      .single-img {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+      }
+    }
+
+    .single-content {
+      width: 50%;
+      .single-short {
+        font-size: 22px;
+        font-weight: 500;
+      }
+      .single-kon {
+        font-size: 19px;
+      }
+      .cost {
+        .cost-wrapper {
+          .cost-el {
+            font-weight: 500;
+            font-size: 20px;
+          }
+        }
+      }
+      .single-ps {
+        font-size: 20px;
+      }
+      .main-contact-btn {
+        background-color: transparent;
+        border: 3px solid $hoverColor;
+        border-radius: 15px;
+        padding: 10px 20px;
+        font-size: 20px;
+        text-decoration: none;
+        color: $hoverColor;
+        text-transform: uppercase;
+        transition: all 0.3s;
+      }
+
+      .main-contact-btn:hover {
+        border-color: white;
+        color: white;
+        background-color: $hoverColor;
+      }
+    }
+  }
+}
