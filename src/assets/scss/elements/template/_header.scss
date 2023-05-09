@@ -69,12 +69,6 @@
       }
     }
   }
-  .nav-header.hidden {
-    display: none;
-  }
-  .nav-header.active {
-    display: flex;
-  }
 
 
   // Hamburger menu styling
@@ -181,6 +175,12 @@
       .active {
         transform: translate(0%);
       }
+    }
+    .nav-header.hidden {
+      display: none;
+    }
+    .nav-header.active {
+      display: flex;
     }
   }
   .ul-header::before {
