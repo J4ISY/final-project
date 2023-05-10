@@ -1,14 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Header from './template/Header.jsx'
 import Footer from "./template/Footer.jsx";
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import LandingPage from "./components/LandingPage.jsx";
-import OfferAll from "./components/OfferAll.jsx";
+import OfferAll from "./components/Offer/OfferAll.jsx";
 import BlogPage from "./components/BlogPage.jsx";
 import Error from "./components/Error.jsx";
 import BlogAll from "./components/BlogAll.jsx";
-import OfferPage from "./components/OfferPage.jsx";
+import OfferInd from "./components/Offer/OfferInd.jsx";
+import OfferLeader from "./components/Offer/OfferLeader.jsx";
+import OfferPrem from "./components/Offer/OfferPrem.jsx";
 
 const router = createBrowserRouter([
     {
@@ -25,7 +27,15 @@ const router = createBrowserRouter([
     },
     {
         path: '/oferta/konsultacje-indywidualne',
-        element: <OfferPage />
+        element: <OfferInd />
+    },
+    {
+        path: '/oferta/leadership-coaching',
+        element: <OfferLeader />
+    },
+    {
+        path: '/oferta/program-mentoringowy-premium',
+        element: <OfferPrem />
     },
     {
         path: '/blogs',
