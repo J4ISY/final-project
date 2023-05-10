@@ -1,12 +1,9 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import Contact from "../template/Contact.jsx";
+import Contact from "../../template/Contact.jsx";
+import openForm from "../../helpers/OpenForm.js";
 
-function OfferPage() {
-
-    function openForm() {
-        document.querySelector(".overlay-contact-form").style.display = "flex";
-    }
+function OfferInd() {
 
     return (
         <>
@@ -54,4 +51,4 @@ function OfferPage() {
     );
 }
 
-export default OfferPage;
+export default OfferInd;

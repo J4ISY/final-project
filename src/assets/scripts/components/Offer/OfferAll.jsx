@@ -45,7 +45,7 @@ function OfferAll() {
                                 zarządzania
                                 ludźmi.</p>
                             <div className="read-more">
-                                <Link to='/' className="read-more-btn">Czytaj dalej</Link>
+                                <Link to='/oferta/leadership-coaching' className="read-more-btn">Czytaj dalej</Link>
                             </div>
                         </div>
                         <div className="single-img-right single-img">
@@ -66,7 +66,7 @@ function OfferAll() {
                                 wsparcie i doradztwo w zakresie psychologii sportu, prowadzenia drużyny, przygotowania do
                                 rozgrywek, meczów i rozwiązywania bieżących problemów.</p>
                             <div className="read-more">
-                                <Link to='/' className="read-more-btn">Czytaj dalej</Link>
+                                <Link to='/oferta/program-mentoringowy-premium' className="read-more-btn">Czytaj dalej</Link>
                             </div>
                         </div>
                     </div>

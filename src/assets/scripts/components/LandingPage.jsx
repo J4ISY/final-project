@@ -1,12 +1,8 @@
 import Contact from "../template/Contact.jsx";
 import {Link} from "react-router-dom";
-
+import openForm from "../helpers/OpenForm.js";
 
 function LandingPage() {
-
-    function openForm() {
-        document.querySelector(".overlay-contact-form").style.display = "flex";
-    }
 
     return (
         <>
