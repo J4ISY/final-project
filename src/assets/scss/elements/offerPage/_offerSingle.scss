@@ -21,7 +21,7 @@
 
     .single-back {
       position: absolute;
-      right: 50px;
+      left: 50px;
 
       .arrow {
         border: solid black;
@@ -112,11 +112,8 @@
 
     .title-wrapper {
 
-      .single-title {
-      }
-
       .single-back {
-        right: 20px;
+        left: 20px;
 
         .arrow {
           border-width: 0 5px 5px 0;
@@ -221,33 +218,12 @@
           width: 300px;
           height: 300px;
         }
-
         margin-bottom: 30px;
       }
 
       .single-content {
         text-align: center;
         width: 80%;
-        .single-short {
-
-        }
-
-        .single-kon {
-
-        }
-
-        .cost {
-          .cost-wrapper {
-            .cost-el {
-
-            }
-          }
-        }
-
-      }
-
-      .main-contact-btn {
-
       }
     }
   }
@@ -364,15 +340,6 @@
         .single-kon {
           font-size: 18px;
           margin-bottom: 0;
-        }
-
-        .cost {
-          .cost-wrapper {
-            .cost-el {
-            }
-          }
-        }
-        .main-contact-btn {
         }
       }
     }

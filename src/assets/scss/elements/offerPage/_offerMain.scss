@@ -175,8 +175,6 @@
 
         .content {
         text-align: right;
-          .cat {
-          }
 
           .offer-title {
             font-size: 25px;
@@ -190,10 +188,6 @@
 
           .read-more {
             justify-content: flex-end;
-            .read-more-btn {
-            }
-            :hover {
-            }
           }
         }
 
@@ -229,11 +223,6 @@
 
       .offer-single {
         flex-direction: column;
-        .single-img {
-
-          .img-img {
-          }
-        }
 
         .content {
           text-align: center;
@@ -252,10 +241,6 @@
 
           .read-more {
             justify-content: center;
-            .read-more-btn {
-            }
-            :hover {
-            }
           }
         }
 
@@ -268,8 +253,6 @@
           }
           .offer-short-desc {
             text-align: center;
-          }
-          .read-more {
           }
         }
       }
@@ -298,45 +281,13 @@
 
 @media only screen and (max-width: 375px) {
   .offer-page {
-
     .offer-wrapper {
-
       .offer-single {
-        .single-img {
-
-          .img-img {
-          }
-        }
 
         .content {
           width: 100%;
-          .cat {
-          }
-
-          .offer-title {
-          }
-
-          .offer-short-desc {
-          }
-
-          .read-more {
-            .read-more-btn {
-            }
-            :hover {
-            }
-          }
         }
 
-        .content-left {
-          .cat {
-          }
-          .offer-title {
-          }
-          .offer-short-desc {
-          }
-          .read-more {
-          }
-        }
       }
     }
   }
