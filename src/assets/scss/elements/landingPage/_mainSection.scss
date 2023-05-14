@@ -4,213 +4,214 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+// Top Section
+.main-top {
+  position: relative;
+  overflow: hidden;
+  height: 800px;
+}
+
+.main-top-content {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-bottom: 75px;
+  margin-right: 45px;
+}
+
+.first {
+  font-size: 78px;
+  margin-bottom: 0;
+  color: $hoverColor;
+  text-transform: uppercase;
+  text-shadow: 5px 3px 10px rgba(66, 68, 90, 1);
+}
+
+.main-text {
+  font-size: 40px;
+  text-align: right;
+  width: 30%;
+  color: white;
+}
+
+.main-social-button {
+  //border: 3px solid orange;
+  width: 100%;
+  margin-right: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.main-social-links {
+  font-size: 30px;
+  color: white;
+}
+
+.main-fb {
+  margin-right: 15px;
+}
+
+.main-ig {
+  margin-right: 40px
+}
+
+.main-contact-btn {
+  background-color: transparent;
+  border: 4px solid $hoverColor;
+  border-radius: 25px;
+  padding: 13px 50px;
+  font-size: 30px;
+  text-decoration: none;
+  color: $hoverColor;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.main-contact-btn:hover {
+  border-color: white;
+  color: white;
+  background-color: $hoverColor;
+}
+
+// Mid Section
+
+.main-mid {
+  position: relative;
+  overflow: hidden;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-mid-content {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.main-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-mid-link {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $hoverColor;
+  border: 3px solid $hoverColor;
+  padding: 10px 40px;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+
+.main-mid-link:hover {
+  border-color: white;
+  color: white;
+  background-color: $hoverColor;
+}
+
+.main-offer {
+}
+
+.offer-img {
+  //border: 3px solid darkred;
+  width: 350px;
+  height: 350px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/conversation.jpg");
+  background-position: center right;
+  background-size: cover;
+}
+
+.main-blog {
+  margin-top: 200px;
+}
+
+.blog-img {
+  //border: 3px solid darkred;
+  width: 350px;
+  height: 350px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/blog.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
 
-  // Top Section
-  .main-top {
-    position: relative;
-    overflow: hidden;
-    height: 800px;
+.main-gallery {
+}
 
-    .main-top-content {
-      display: flex;
-      align-items: flex-end;
-      flex-direction: column;
-      margin-bottom: 75px;
-      margin-right: 45px;
+.gallery-img {
+  //border: 3px solid darkred;
+  width: 350px;
+  height: 350px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/winner2.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
-      .first {
-        font-size: 78px;
-        margin-bottom: 0;
-        color: $hoverColor;
-        text-transform: uppercase;
-        text-shadow: 5px 3px 10px rgba(66, 68, 90, 1);
-      }
+// Bottom Section
 
-      .main-text {
-        font-size: 40px;
-        text-align: right;
-        width: 30%;
-        color: white;
-      }
+.main-bottom {
+  position: relative;
+  overflow: hidden;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+}
 
-      .main-social-button {
-        //border: 3px solid orange;
-        width: 100%;
-        margin-right: 100px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        margin-top: 100px;
+.main-bottom-content {
+  //border: 3px solid blue;
+  width: 100%;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
 
-        .main-social-links {
-          font-size: 30px;
-          color: white;
+.client-photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
 
-          .main-fb {
-            margin-right: 15px;
-          }
+.client-photo {
+  //border: 3px solid darkred;
+  width: 500px;
+  height: 500px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/lion-staring-v2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 50;
+  position: relative;
+}
 
-          .main-ig {
-            margin-right: 40px
-          }
-        }
+.bottom-description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
-        .main-contact-btn {
-          background-color: transparent;
-          border: 4px solid $hoverColor;
-          border-radius: 25px;
-          padding: 13px 50px;
-          font-size: 30px;
-          text-decoration: none;
-          color: $hoverColor;
-          text-transform: uppercase;
-          transition: all 0.3s;
-        }
+.bottom-title {
+  font-size: 64px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
 
-        .main-contact-btn:hover {
-          border-color: white;
-          color: white;
-          background-color: $hoverColor;
-        }
-      }
-    }
-  }
-
-  // Mid Section
-
-  .main-mid {
-    position: relative;
-    overflow: hidden;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .main-mid-content {
-      display: flex;
-      justify-content: space-evenly;
-      width: 100%;
-
-      .main-column {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
-
-      .main-mid-link {
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: $hoverColor;
-        border: 3px solid $hoverColor;
-        padding: 10px 40px;
-        border-radius: 30px;
-        transition: all 0.3s;
-      }
-
-      .main-mid-link:hover {
-        border-color: white;
-        color: white;
-        background-color: $hoverColor;
-      }
-
-      .main-offer {
-        .offer-img {
-          //border: 3px solid darkred;
-          width: 350px;
-          height: 350px;
-          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/conversation.jpg");
-          background-position: center right;
-          background-size: cover;
-        }
-      }
-
-      .main-blog {
-        margin-top: 200px;
-
-        .blog-img {
-          //border: 3px solid darkred;
-          width: 350px;
-          height: 350px;
-          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/blog.jpg");
-          background-position: center;
-          background-size: cover;
-        }
-      }
-
-      .main-gallery {
-
-        .gallery-img {
-          //border: 3px solid darkred;
-          width: 350px;
-          height: 350px;
-          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/winner2.jpg");
-          background-position: center;
-          background-size: cover;
-        }
-      }
-    }
-  }
-
-  // Bottom Section
-
-  .main-bottom {
-    position: relative;
-    overflow: hidden;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-
-    .main-bottom-content {
-      //border: 3px solid blue;
-      width: 100%;
-      padding-bottom: 100px;
-      display: flex;
-      justify-content: center;
-
-      .client-photo-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 50px;
-
-        .client-photo {
-          //border: 3px solid darkred;
-          width: 500px;
-          height: 500px;
-          background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/lion-staring-v2.jpg");
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          z-index: 50;
-          position: relative;
-        }
-      }
-
-      .bottom-description {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-
-        .bottom-title {
-          font-size: 64px;
-          color: white;
-          margin-top: 0;
-          margin-bottom: 40px;
-        }
-
-        .bottom-text {
-          font-size: 24px;
-          width: 520px;
-          color: white;
-        }
-      }
-    }
-  }
+.bottom-text {
+  font-size: 24px;
+  width: 520px;
+  color: white;
 }
 
 // Opacity dla main-top
@@ -255,806 +256,552 @@
 }
 
 @media only screen and (max-width: 1275px) {
-  .main {
 
-    .main-top {
-
-      .main-top-content {
-
-        .first {
-          text-align: right;
-        }
-
-        .main-text {
-          width: 35%;
-        }
-
-      }
-    }
+  .first {
+    text-align: right;
   }
+
+  .main-text {
+    width: 35%;
+  }
+
 }
 
 @media only screen and (max-width: 1133px) {
-  .main {
 
-    .main-top {
-
-      .main-top-content {
-
-        .main-text {
-          width: 45%;
-        }
-
-      }
-    }
+  .main-text {
+    width: 45%;
   }
+
 }
 
 @media only screen and (max-width: 1090px) {
-  .main {
-    .main-mid {
 
-      .main-mid-content {
-
-        .main-offer {
-          .offer-img {
-            width: 330px;
-            height: 330px;
-          }
-        }
-
-        .main-blog {
-
-          .blog-img {
-            width: 330px;
-            height: 330px;
-          }
-        }
-
-        .main-gallery {
-
-          .gallery-img {
-            width: 330px;
-            height: 330px;
-          }
-        }
-      }
-    }
-
-    .main-bottom {
-
-      .main-bottom-content {
-
-        .client-photo-container {
-
-          .client-photo {
-            width: 450px;
-            height: 450px;
-          }
-        }
-      }
-    }
+  .offer-img {
+    width: 330px;
+    height: 330px;
   }
+  .blog-img {
+    width: 330px;
+    height: 330px;
+  }
+
+  .gallery-img {
+    width: 330px;
+    height: 330px;
+  }
+
+
+  .client-photo {
+    width: 450px;
+    height: 450px;
+  }
+
 }
 
+
 @media only screen and (max-width: 1079px) {
-  .main {
 
-    .main-top {
-
-      .main-top-content {
-        .main-text {
-          width: 50%;
-        }
-
-      }
-    }
+  .main-text {
+    width: 50%;
   }
+
 }
 
 @media only screen and (max-width: 1040px) {
-  .main {
-    .main-bottom {
 
-      .main-bottom-content {
-
-        .client-photo-container {
-          width: 50%;
-        }
-
-        .bottom-description {
-          width: 50%;
-
-          .bottom-title {
-            font-size: 60px;
-          }
-
-          .bottom-text {
-            font-size: 22px;
-            width: 90%;
-          }
-        }
-      }
-    }
+  .client-photo-container {
+    width: 50%;
   }
+
+  .bottom-description {
+    width: 50%;
+  }
+  .bottom-title {
+    font-size: 60px;
+  }
+
+  .bottom-text {
+    font-size: 22px;
+    width: 90%;
+  }
+
 }
 
+
 @media only screen and (max-width: 1024px) {
-  .main {
 
-    .main-top {
-
-      .main-top-content {
-
-        .first {
-          text-align: right;
-        }
-
-        .main-text {
-          font-size: 35px;
-          width: 40%;
-        }
-
-        .main-social-button {
-          margin-right: 0;
-
-        }
-      }
-    }
-
-    .main-mid {
-
-      .main-mid-content {
-
-        .main-offer {
-          .offer-img {
-            width: 300px;
-            height: 300px;
-          }
-        }
-
-        .main-blog {
-
-          .blog-img {
-            width: 300px;
-            height: 300px;
-          }
-        }
-
-        .main-gallery {
-
-          .gallery-img {
-            width: 300px;
-            height: 300px;
-          }
-        }
-      }
-    }
-
-    .main-bottom {
-      height: 600px;
-
-      .main-bottom-content {
-        padding-bottom: 0;
-
-        .client-photo-container {
-
-          .client-photo {
-            width: 390px;
-            height: 390px;
-          }
-        }
-
-        .bottom-description {
-
-          .bottom-title {
-            font-size: 60px;
-          }
-
-          .bottom-text {
-            font-size: 22px;
-          }
-        }
-      }
-    }
+  .first {
+    text-align: right;
   }
+
+  .main-text {
+    font-size: 35px;
+    width: 40%;
+  }
+
+  .main-social-button {
+    margin-right: 0;
+  }
+
+  .offer-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .blog-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .gallery-img {
+    width: 300px;
+    height: 300px;
+  }
+
+
+  .main-bottom {
+    height: 600px;
+  }
+  .main-bottom-content {
+    padding-bottom: 0;
+  }
+
+  .client-photo {
+    width: 390px;
+    height: 390px;
+  }
+
+  .bottom-title {
+    font-size: 60px;
+  }
+
+  .bottom-text {
+    font-size: 22px;
+  }
+
 }
 
 
 @media only screen and (max-width: 1002px) {
-  .main {
 
-    .main-top {
-
-      .main-top-content {
-
-        .main-text {
-          width: 55%;
-        }
-
-      }
-    }
+  .main-text {
+    width: 55%;
   }
 }
+
 
 @media only screen and (max-width: 970px) {
-  .main {
-    .main-bottom {
 
-      .main-bottom-content {
+  .client-photo-container {
+    width: 50%;
+  }
+  .client-photo {
+    width: 400px;
+    height: 400px;
+  }
 
-        .client-photo-container {
-          width: 50%;
 
-          .client-photo {
-            width: 400px;
-            height: 400px;
-          }
-        }
+  .bottom-description {
+    width: 50%;
+  }
+  .bottom-title {
+    font-size: 60px;
+  }
 
-        .bottom-description {
-          width: 50%;
-
-          .bottom-title {
-            font-size: 60px;
-          }
-
-          .bottom-text {
-            font-size: 22px;
-            width: 90%;
-          }
-        }
-      }
-    }
+  .bottom-text {
+    font-size: 22px;
+    width: 90%;
   }
 }
 
+
 @media only screen and (max-width: 930px) {
-  .main {
-    .main-mid {
 
-      .main-mid-content {
+  .offer-img {
+    width: 270px;
+    height: 270px;
+  }
 
-        .main-offer {
-          .offer-img {
-            width: 270px;
-            height: 270px;
-          }
-        }
+  .blog-img {
+    width: 270px;
+    height: 270px;
+  }
 
-        .main-blog {
-
-          .blog-img {
-            width: 270px;
-            height: 270px;
-          }
-        }
-
-        .main-gallery {
-
-          .gallery-img {
-            width: 270px;
-            height: 270px;
-          }
-        }
-      }
-    }
+  .gallery-img {
+    width: 270px;
+    height: 270px;
   }
 }
 
 @media only screen and (max-width: 866px) {
-  .main {
-    .main-bottom {
-      height: 600px;
 
-      .main-bottom-content {
-        padding-bottom: 0;
+  .main-bottom {
+    height: 600px;
+  }
+  .main-bottom-content {
+    padding-bottom: 0;
+  }
+  .client-photo {
+    width: 370px;
+    height: 370px;
+  }
 
-        .client-photo-container {
+  .bottom-title {
+    font-size: 55px;
+  }
 
-          .client-photo {
-            width: 370px;
-            height: 370px;
-          }
-        }
-
-        .bottom-description {
-
-          .bottom-title {
-            font-size: 55px;
-          }
-
-          .bottom-text {
-            font-size: 22px;
-            text-shadow: 5px 3px 10px rgb(66, 68, 90);
-          }
-        }
-      }
-    }
+  .bottom-text {
+    font-size: 22px;
+    text-shadow: 5px 3px 10px rgb(66, 68, 90);
   }
 }
+
 
 @media only screen and (max-width: 850px) {
-  .main {
-    .main-mid {
 
-      .main-mid-content {
+  .offer-img {
+    width: 250px;
+    height: 250px;
+  }
 
-        .main-offer {
-          .offer-img {
-            width: 250px;
-            height: 250px;
-          }
-        }
+  .blog-img {
+    width: 250px;
+    height: 250px;
+  }
 
-        .main-blog {
-
-          .blog-img {
-            width: 250px;
-            height: 250px;
-          }
-        }
-
-        .main-gallery {
-
-          .gallery-img {
-            width: 250px;
-            height: 250px;
-          }
-        }
-      }
-    }
+  .gallery-img {
+    width: 250px;
+    height: 250px;
   }
 }
+
 
 @media only screen and (max-width: 812px) {
-  .main {
-    .main-bottom {
-      height: 600px;
 
-      .main-bottom-content {
-        padding-bottom: 0;
-
-        .client-photo-container {
-
-          .client-photo {
-            width: 370px;
-            height: 370px;
-          }
-        }
-
-        .bottom-description {
-          width: 45%;
-
-          .bottom-title {
-            font-size: 55px;
-            margin-bottom: 10px;
-          }
-
-          .bottom-text {
-            font-size: 22px;
-            text-shadow: 5px 3px 10px rgb(66, 68, 90);
-            width: 95%;
-          }
-        }
-      }
-    }
+  .main-bottom {
+    height: 600px;
   }
+  .main-bottom-content {
+    padding-bottom: 0;
+  }
+
+  .client-photo {
+    width: 370px;
+    height: 370px;
+  }
+
+
+  .bottom-description {
+    width: 45%;
+  }
+  .bottom-title {
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+
+  .bottom-text {
+    font-size: 22px;
+    text-shadow: 5px 3px 10px rgb(66, 68, 90);
+    width: 95%;
+  }
+
 }
 
+
 @media only screen and (max-width: 768px) {
-  .main {
 
-    .main-top {
-      height: 700px;
-
-      .main-top-content {
-        margin-right: 35px;
-
-        .first {
-          text-shadow: 5px 3px 10px rgba(66, 68, 90, 1);
-          font-size: 58px;
-        }
-
-        .main-text {
-          font-size: 30px;
-          width: 40%;
-        }
-
-        .main-social-button {
-          margin-top: 50px;
-          margin-right: 0;
-
-          .main-social-links {
-            font-size: 25px;
-
-            .main-ig {
-              margin-right: 20px;
-            }
-          }
-
-          .main-contact-btn {
-            padding: 8px 30px;
-            font-size: 25px;
-          }
-
-          .main-contact-btn:hover {
-          }
-        }
-      }
-    }
-
-    .main-mid {
-      height: 600px;
-
-      .main-mid-content {
-
-        .main-offer {
-          .offer-img {
-            width: 220px;
-            height: 220px;
-          }
-        }
-
-        .main-blog {
-          .blog-img {
-            width: 220px;
-            height: 220px;
-          }
-        }
-
-        .main-gallery {
-
-          .gallery-img {
-            width: 220px;
-            height: 220px;
-          }
-        }
-      }
-    }
-
-    .main-bottom {
-      display: flex;
-      justify-content: center;
-
-      .main-bottom-content {
-        padding-bottom: 0;
-        padding-top: 0;
-
-        .client-photo-container {
-
-          .client-photo {
-            width: 330px;
-            height: 330px;
-          }
-        }
-
-        .bottom-description {
-
-          .bottom-title {
-            font-size: 55px;
-            margin-bottom: 20px;
-            margin-top: 0;
-          }
-
-          .bottom-text {
-            font-size: 20px;
-            width: 95%;
-          }
-        }
-      }
-    }
-
+  .main-top {
+    height: 700px;
   }
+  .main-top-content {
+    margin-right: 35px;
+  }
+  .first {
+    text-shadow: 5px 3px 10px rgba(66, 68, 90, 1);
+    font-size: 58px;
+  }
+
+  .main-text {
+    font-size: 30px;
+    width: 40%;
+  }
+
+  .main-social-button {
+    margin-top: 50px;
+    margin-right: 0;
+  }
+  .main-social-links {
+    font-size: 25px;
+  }
+  .main-ig {
+    margin-right: 20px;
+  }
+
+  .main-contact-btn {
+    padding: 8px 30px;
+    font-size: 25px;
+  }
+
+  .main-mid {
+    height: 600px;
+  }
+
+  .offer-img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .blog-img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .gallery-img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .main-bottom {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-bottom-content {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .client-photo {
+    width: 330px;
+    height: 330px;
+  }
+
+  .bottom-title {
+    font-size: 55px;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+
+  .bottom-text {
+    font-size: 20px;
+    width: 95%;
+  }
+
   .main-top::before {
     background-position: center;
   }
+
 }
 
 @media only screen and (max-width: 695px) {
-  .main {
-    .main-bottom {
 
-      .main-bottom-content {
-
-        .client-photo-container {
-
-          .client-photo {
-            width: 300px;
-            height: 300px;
-          }
-        }
-
-        .bottom-description {
-
-          .bottom-title {
-            font-size: 50px;
-          }
-
-          .bottom-text {
-            font-size: 20px;
-          }
-        }
-      }
-    }
+  .client-photo {
+    width: 300px;
+    height: 300px;
   }
+  .bottom-title {
+    font-size: 50px;
+  }
+
+  .bottom-text {
+    font-size: 20px;
+  }
+
 }
 
+
 @media only screen and (max-width: 680px) {
-  .main {
-    .main-mid {
 
-      .main-mid-content {
-
-        .main-offer {
-          .offer-img {
-            width: 190px;
-            height: 190px;
-          }
-        }
-
-        .main-blog {
-
-          .blog-img {
-            width: 190px;
-            height: 190px;
-          }
-        }
-
-        .main-gallery {
-
-          .gallery-img {
-            width: 190px;
-            height: 190px;
-          }
-        }
-      }
-    }
+  .offer-img {
+    width: 190px;
+    height: 190px;
   }
+
+  .blog-img {
+    width: 190px;
+    height: 190px;
+  }
+
+  .gallery-img {
+    width: 190px;
+    height: 190px;
+  }
+
 }
 
 @media only screen and (max-width: 643px) {
-  .main {
-    .main-bottom {
 
-      .main-bottom-content {
-
-        .client-photo-container {
-          width: 55%;
-          margin-right: 20px;
-        }
-
-        .bottom-description {
-
-          .bottom-title {
-            font-size: 45px;
-          }
-
-          .bottom-text {
-            font-size: 18px;
-          }
-        }
-      }
-    }
+  .client-photo-container {
+    width: 55%;
+    margin-right: 20px;
   }
+
+  .bottom-title {
+    font-size: 45px;
+  }
+
+  .bottom-text {
+    font-size: 18px;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
-  .main {
-    .main-mid {
 
-      .main-mid-content {
-
-        .main-offer {
-          .offer-img {
-            width: 170px;
-            height: 170px;
-          }
-        }
-
-        .main-blog {
-
-          .blog-img {
-            width: 170px;
-            height: 170px;
-          }
-        }
-
-        .main-gallery {
-
-          .gallery-img {
-            width: 170px;
-            height: 170px;
-          }
-        }
-      }
-    }
+  .offer-img {
+    width: 170px;
+    height: 170px;
   }
+
+
+  .blog-img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .gallery-img {
+    width: 170px;
+    height: 170px;
+  }
+
 }
+
 
 @media only screen and (max-width: 585px) {
-  .main {
-    .main-bottom {
 
-      .main-bottom-content {
-
-        .client-photo-container {
-
-          .client-photo {
-            width: 270px;
-            height: 270px;
-          }
-        }
-
-        .bottom-description {
-
-          .bottom-title {
-            font-size: 40px;
-          }
-
-          .bottom-text {
-            font-size: 16px;
-          }
-        }
-      }
-    }
+  .client-photo {
+    width: 270px;
+    height: 270px;
   }
+
+  .bottom-title {
+    font-size: 40px;
+  }
+
+  .bottom-text {
+    font-size: 16px;
+  }
+
 }
 
+
 @media only screen and (max-width: 470px) {
-  .main {
-    .main-mid {
 
-      .main-mid-content {
-
-        .main-offer {
-          .offer-img {
-            width: 135px;
-            height: 135px;
-          }
-        }
-
-        .main-blog {
-
-          .blog-img {
-            width: 135px;
-            height: 135px;
-          }
-        }
-
-        .main-gallery {
-
-          .gallery-img {
-            width: 135px;
-            height: 135px;
-          }
-        }
-      }
-    }
+  .offer-img {
+    width: 135px;
+    height: 135px;
   }
+
+  .blog-img {
+    width: 135px;
+    height: 135px;
+  }
+
+  .gallery-img {
+    width: 135px;
+    height: 135px;
+  }
+
 }
 
 @media only screen and (max-width: 559px) {
-  .main {
 
-    .main-top {
-
-      .main-top-content {
-
-        .main-text {
-          width: 55%;
-        }
-
-      }
-    }
+  .main-text {
+    width: 55%;
   }
+
 }
 
 @media only screen and (max-width: 490px) {
-  .main {
 
-    .main-top {
-      height: 600px;
-
-      .main-top-content {
-        margin-right: 25px;
-
-        .first {
-          font-size: 35px;
-        }
-
-        .main-text {
-          width: 50%;
-          font-size: 28px;
-        }
-
-        .main-social-button {
-          margin-top: 30px;
-
-          .main-social-links {
-            font-size: 20px;
-          }
-
-          .main-contact-btn {
-            padding: 8px 30px;
-            font-size: 20px;
-            border: 3px solid $hoverColor;
-          }
-        }
-      }
-    }
-
-    .main-mid {
-      height: 1000px;
-
-      .main-mid-content {
-        flex-direction: column;
-
-        .main-offer {
-          .offer-img {
-            width: 200px;
-            height: 200px;
-          }
-        }
-
-        .main-blog {
-          margin-top: 0;
-
-          .blog-img {
-            width: 200px;
-            height: 200px;
-          }
-        }
-
-        .main-gallery {
-
-          .gallery-img {
-            width: 200px;
-            height: 200px;
-          }
-        }
-      }
-    }
-
-    .main-bottom {
-      height: 800px;
-      width: 100%;
-
-      .main-bottom-content {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        .client-photo-container {
-          width: 100%;
-          margin-right: 0;
-          margin-bottom: 20px;
-
-          .client-photo {
-            width: 350px;
-            height: 350px;
-          }
-        }
-
-        .bottom-description {
-          width: 100%;
-
-          .bottom-title {
-            font-size: 50px;
-            text-align: center;
-            margin: 0;
-          }
-
-          .bottom-text {
-            align-self: center;
-            width: 80%;
-            text-align: justify;
-            font-size: 18px;
-          }
-        }
-      }
-    }
+  .main-top {
+    height: 600px;
   }
+  .main-top-content {
+    margin-right: 25px;
+  }
+  .first {
+    font-size: 35px;
+  }
+
+  .main-text {
+    width: 50%;
+    font-size: 28px;
+  }
+
+  .main-social-button {
+    margin-top: 30px;
+  }
+  .main-social-links {
+    font-size: 20px;
+  }
+
+  .main-contact-btn {
+    padding: 8px 30px;
+    font-size: 20px;
+    border: 3px solid $hoverColor;
+  }
+
+  .main-mid {
+    height: 1000px;
+  }
+  .main-mid-content {
+    flex-direction: column;
+  }
+  .offer-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .main-blog {
+    margin-top: 0;
+  }
+  .blog-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .gallery-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .main-bottom {
+    height: 800px;
+    width: 100%;
+  }
+  .main-bottom-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .client-photo-container {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .client-photo {
+    width: 350px;
+    height: 350px;
+  }
+
+  .bottom-description {
+    width: 100%;
+  }
+  .bottom-title {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .bottom-text {
+    align-self: center;
+    width: 80%;
+    text-align: justify;
+    font-size: 18px;
+  }
+
   .main-mid::before {
     height: 100%;
     opacity: 0.8;
@@ -1065,179 +812,128 @@
     opacity: 0.8;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('/src/assets/images/imgUse/lion-lying-down-small-short.jpg');
   }
-}
 
+}
 
 
 @media only screen and (max-width: 405px) {
-  .main {
 
-    .main-top {
-
-      .main-top-content {
-
-        .main-text {
-          width: 65%;
-        }
-      }
-    }
+  .main-text {
+    width: 65%;
   }
+
 }
 
+
 @media only screen and (max-width: 388px) {
-  .main {
-    .main-top {
 
-      .main-top-content {
-
-        .main-text {
-          width: 60%;
-        }
-      }
-    }
+  .main-text {
+    width: 60%;
   }
+
 }
 
 @media only screen and (max-width: 375px) {
-  .main {
 
-    .main-top {
-      height: 600px;
-
-      .main-top-content {
-        margin-right: 20px;
-
-        .main-text {
-          font-size: 26px;
-        }
-
-        .main-social-button {
-          margin-top: 35px;
-
-        }
-      }
-    }
-
-    .main-mid {
-      height: 1000px;
-
-      .main-mid-content {
-
-        .main-offer {
-
-          .offer-link {
-            padding: 8px 30px;
-            border: 2px solid $hoverColor;
-            font-size: 15px;
-          }
-        }
-
-        .main-blog {
-
-          .blog-link {
-            padding: 8px 30px;
-            border: 2px solid $hoverColor;
-            font-size: 15px;
-          }
-        }
-
-        .main-gallery {
-
-          .gallery-link {
-            padding: 8px 30px;
-            border: 2px solid $hoverColor;
-            font-size: 15px;
-          }
-        }
-      }
-    }
-
-    .main-bottom {
-
-      .main-bottom-content {
-
-        .client-photo-container {
-
-          .client-photo {
-            width: 300px;
-            height: 300px;
-          }
-        }
-
-        .bottom-description {
-
-          .bottom-text {
-            font-size: 17px;
-          }
-        }
-      }
-    }
+  .main-top {
+    height: 600px;
   }
+  .main-top-content {
+    margin-right: 20px;
+  }
+  .main-text {
+    font-size: 26px;
+  }
+
+  .main-social-button {
+    margin-top: 35px;
+  }
+
+  .main-mid {
+    height: 1000px;
+  }
+
+  .offer-link {
+    padding: 8px 30px;
+    border: 2px solid $hoverColor;
+    font-size: 15px;
+  }
+
+  .blog-link {
+    padding: 8px 30px;
+    border: 2px solid $hoverColor;
+    font-size: 15px;
+  }
+
+  .gallery-link {
+    padding: 8px 30px;
+    border: 2px solid $hoverColor;
+    font-size: 15px;
+  }
+
+  .client-photo {
+    width: 300px;
+    height: 300px;
+  }
+
+  .bottom-text {
+    font-size: 17px;
+  }
+
   .main-top::before {
     background-position: center;
   }
+
 }
 
 @media only screen and (max-width: 320px) {
-  .main {
-
-    .main-top {
-      height: 500px;
-
-      .main-top-content {
-        margin: 0;
-
-        .first {
-          font-size: 30px;
-          margin-right: 10px;
-        }
-
-        .main-text {
-          margin-right: 10px;
-          color: white;
-          width: 80%;
-        }
-
-        .main-social-button {
-          margin-right: 10px;
-          margin-top: 20px;
-        }
-      }
-    }
-
-    .main-bottom {
-      height: 750px;
-      .main-bottom-content {
-        .client-photo-container {
-          .client-photo {
-            width: 280px;
-            height: 280px;
-          }
-        }
-
-        .bottom-description {
-          .bottom-title {
-            font-size: 50px;
-          }
-
-          .bottom-text {
-            font-size: 18px;
-            width: 300px;
-          }
-        }
-      }
-    }
+  .main-top {
+    height: 500px;
   }
+  .main-top-content {
+    margin: 0;
+  }
+  .first {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+
+  .main-text {
+    margin-right: 10px;
+    color: white;
+    width: 80%;
+  }
+
+  .main-social-button {
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+
+
+  .main-bottom {
+    height: 750px;
+  }
+  .client-photo {
+    width: 280px;
+    height: 280px;
+  }
+
+  .bottom-title {
+    font-size: 50px;
+  }
+
+  .bottom-text {
+    font-size: 18px;
+    width: 300px;
+  }
+
 }
 
+
 @media only screen and (max-width: 304px) {
-  .main {
-    .main-top {
-      .main-top-content {
-        .main-text {
-          width: 100%;
-        }
-      }
-    }
+
+  .main-text {
+    width: 100%;
   }
+
 }
