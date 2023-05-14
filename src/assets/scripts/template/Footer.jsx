@@ -3,7 +3,11 @@ function Footer() {
         <>
             <footer className="footer">
                 <div className="footer-left">
-                    <p className="footer-text">&copy; 2023 Maja Marciniak. Wykonanie: <a href="https://github.com/J4ISY" className="dev" target='_blank' rel='noreferrer'>Jakub Marciniak</a></p>
+                    <p className="footer-text">&copy; 2023 Maja Marciniak. Wykonanie:
+                        <a href="https://github.com/J4ISY" className="dev" target='_blank' rel='noreferrer'>
+                            Jakub Marciniak
+                        </a>
+                    </p>
                 </div>
                 <div className="footer-right">
                     <a href="#" className="footer-links"><i className="fa-brands fa-square-facebook fa-2xl"></i></a>
