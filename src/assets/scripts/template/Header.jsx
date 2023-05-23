@@ -21,7 +21,6 @@ function Header() {
                         <li className='li-header'><a href="/" className="nav__link">Strona główna</a></li>
                         <li className='li-header'><a href="/oferta" className="nav__link">Oferta</a></li>
                         <li className='li-header'><a href={`/blogs`} className="nav__link">Blog</a></li>
-                        <li className='li-header'><a href="/galeria" className="nav__link">Galeria</a></li>
                     </ul>
                 </nav>
 

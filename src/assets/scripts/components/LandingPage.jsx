@@ -37,11 +37,7 @@ function LandingPage() {
                             <Link to='https://www.instagram.com/trener_lider_w_sporcie/' className="main-social-links" target='_blank'>
                                 <i className="fa-brands fa-instagram fa-2xl main-ig"></i>
                             </Link>
-                            <button
-                                className="main-contact-btn"
-                                onClick={openForm}
-                            >Kontakt
-                            </button>
+                            <button className="main-contact-btn" onClick={openForm}>Kontakt</button>
                         </div>
                     </div>
                 </div>
