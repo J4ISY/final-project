@@ -3,7 +3,7 @@ function Footer() {
         <>
             <footer className="footer">
                 <div className="footer-left">
-                    <p className="footer-text">&copy; 2023 Maja Marciniak. Wykonanie:
+                    <p className="footer-text">&copy; 2023 Przywództwo w sporcie. Wykonanie:
                         <a href="https://github.com/J4ISY" className="dev" target='_blank' rel='noreferrer'>
                             Jakub Marciniak
                         </a>
