@@ -126,6 +126,7 @@
 .offer-img {
   width: 350px;
   height: 350px;
+  border-radius: 10px;
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/conversation.jpg");
   background-position: center right;
   background-size: cover;
@@ -138,6 +139,7 @@
 .blog-img {
   width: 350px;
   height: 350px;
+  border-radius: 10px;
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/blog.jpg");
   background-position: center;
   background-size: cover;
@@ -146,6 +148,7 @@
 .gallery-img {
   width: 350px;
   height: 350px;
+  border-radius: 10px;
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/winner2.jpg");
   background-position: center;
   background-size: cover;
@@ -176,9 +179,10 @@
 }
 
 .client-photo {
-  width: 500px;
-  height: 500px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/lion-staring-v2.jpg");
+  width: 450px;
+  height: 700px;
+  border-radius: 15px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, .7)), url("/src/assets/images/imgUse/maja-marciniak/image4.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

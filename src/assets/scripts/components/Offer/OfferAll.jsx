@@ -12,7 +12,7 @@ function OfferAll() {
 
                     <div className="offer-single offer-single-first">
                         <div className="single-img-left single-img">
-                            <img src="/src/assets/images/imgUse/offer-conversation.jpg"
+                            <img src="/src/assets/images/imgUse/maja-marciniak/image0bgc.jpeg"
                                  alt="zdjęcie konsultacje indywidualne" className="img-left img-img"/>
                         </div>
                         <div className="content-right content">
@@ -30,7 +30,7 @@ function OfferAll() {
 
                     <div className="offer-single offer-single-second">
                         <div className="single-img-right single-img">
-                            <img src="/src/assets/images/imgUse/offer-conversation.jpg"
+                            <img src="/src/assets/images/imgUse/maja-marciniak/image6.jpeg"
                                  alt="zdjęcie konsultacje indywidualne" className="img-right img-img"/>
                         </div>
                         <div className="content-left content">
@@ -49,14 +49,14 @@ function OfferAll() {
                             </div>
                         </div>
                         <div className="single-img-right single-img">
-                            <img src="/src/assets/images/imgUse/offer-conversation.jpg"
+                            <img src="/src/assets/images/imgUse/maja-marciniak/image6.jpeg"
                                  alt="zdjęcie konsultacje indywidualne" className="img-right img-img"/>
                         </div>
                     </div>
 
                     <div className="offer-single">
                         <div className="single-img-left single-img">
-                            <img src="/src/assets/images/imgUse/offer-conversation.jpg"
+                            <img src="/src/assets/images/imgUse/maja-marciniak/image8.jpeg"
                                  alt="zdjęcie konsultacje indywidualne" className="img-left img-img"/>
                         </div>
                         <div className="content-right content">
@@ -73,7 +73,7 @@ function OfferAll() {
 
                     <div className="offer-single offer-single-second">
                         <div className="single-img-right single-img">
-                            <img src="/src/assets/images/imgUse/offer-conversation.jpg"
+                            <img src="/src/assets/images/imgUse/maja-marciniak/image8.jpeg"
                                  alt="zdjęcie konsultacje indywidualne" className="img-right img-img"/>
                         </div>
                         <div className="content-left content">
@@ -91,7 +91,7 @@ function OfferAll() {
                             </div>
                         </div>
                         <div className="single-img-right single-img">
-                            <img src="/src/assets/images/imgUse/offer-conversation.jpg"
+                            <img src="/src/assets/images/imgUse/maja-marciniak/image7.jpeg"
                                  alt="zdjęcie konsultacje indywidualne" className="img-right img-img"/>
                         </div>
                     </div>
