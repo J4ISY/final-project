@@ -21,7 +21,7 @@ function OfferPrem() {
                 </div>
                 <div className="single-wrapper">
                     <div className="single-photo-offer">
-                        <img src="/src/assets/images/imgUse/offer-single.jpg"
+                        <img src="/src/assets/images/imgUse/maja-marciniak/image5.jpeg"
                              alt="Zdjęcie najlepszego trenera mentalnego w Polsce" className="single-img"/>
                     </div>
                     <div className="single-content">
