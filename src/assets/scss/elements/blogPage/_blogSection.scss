@@ -1,74 +1,99 @@
-.blog {
+.blog-all {
   background-color: #f9f9f9;
   padding: 50px 0;
-}
-
-.container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.section-title {
-}
-
-.blog-posts {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
-.blog-post {
-  width: calc(33.33% - 20px);
+.blog-all-posts {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.blog-all-single-post {
+  width: 30%;
+  height: 550px;
   margin-bottom: 30px;
   box-shadow: 0 0 5px #ddd;
   transition: all 0.3s ease-in;
+  display: flex;
+  //justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
 }
 
-.blog-post-a {
+.blog-all-single-post-a {
   display: block;
 }
 
-.blog-post-img {
+.blog-all-single-post-img {
   width: 100%;
   height: auto;
+  //align-self: flex-start;
 }
 
 
-.blog-post-content {
+.blog-all-post-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 10px;
 }
 
-.blog-title {
-  margin-top: 20px;
-  margin-bottom: 10px;
+.blog-all-title {
+  margin: 20px 0 20px;
   font-size: 24px;
 }
 
-.blog-meta {
-  font-size: 14px;
-  margin-bottom: 10px;
-  color: #999;
+.blog-all-title-link {
+  //text-decoration: none;
+  color: black;
+  margin: 0;
 }
 
-.blog-excerpt {
+.blog-all-meta {
+  font-size: 14px;
+  margin: 0 0 15px;
+  color: #999;
+  align-self: flex-start;
+}
+
+.blog-all-excerpt {
   font-size: 16px;
   line-height: 1.5;
   color: #666;
+  margin: 0;
 }
 
 
-.blog-post:hover {
+.blog-all-post:hover {
   box-shadow: 0 0 10px #ddd;
 }
 
+@media only screen and (max-width: 768px) {
+  .blog-all-single-post {
+    width: 80%;
+  }
+}
 
-/* Responsive styles */
-@media screen and (max-width: 768px) {
-  .blog-posts {
-    display: block;
+@media only screen and (max-width: 425px) {
+  .blog-all-title {
+    font-size: 22px;
   }
-  .blog-post {
-    width: 100%;
-    margin-bottom: 40px;
-  }
+}
+
+@media only screen and (max-width: 375px) {
+    .blog-all-excerpt {
+      font-size: 14px;
+      padding-right: 10px;
+    }
 }

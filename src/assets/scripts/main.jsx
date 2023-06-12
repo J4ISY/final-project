@@ -5,7 +5,7 @@ import Header from './template/Header.jsx'
 import Footer from "./template/Footer.jsx";
 import LandingPage from "./components/LandingPage.jsx";
 import OfferAll from "./components/Offer/OfferAll.jsx";
-// import BlogPage from "./components/BlogPage.jsx";
+import BlogSingle from "./components/BlogSingle.jsx";
 import Error from "./components/Error.jsx";
 import BlogAll from "./components/BlogAll.jsx";
 import OfferInd from "./components/Offer/OfferInd.jsx";
@@ -41,10 +41,10 @@ const router = createBrowserRouter([
         path: '/blogs',
         element: <BlogAll />
     },
-    // {
-    //     path: '/blogs/:id',
-    //     element: <BlogPage />
-    // }
+    {
+        path: '/blogs/:postId',
+        element: <BlogSingle />
+    }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
