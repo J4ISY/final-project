@@ -1,14 +1,16 @@
 .blog-single {
   width: 100%;
   position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .blog-single-btn {
   background-color: transparent;
   border: none;
   position: absolute;
-  left: 1740px;
-  top: -20px;
+  left: 30px;
+  top: -50px;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
@@ -34,7 +36,8 @@
 
 .blog-single-img {
   width: 1000px;
-  height: 600px;
+  height: auto;
+  object-fit: contain;
 }
 
 .blog-single-content {
@@ -45,7 +48,7 @@
   margin-top: 50px;
   margin-bottom: 0;
   font-size: 60px;
-  width: 85%;
+  width: 100%;
   align-self: flex-start;
 }
 
@@ -60,7 +63,7 @@
   margin-top: 20px;
   font-size: 20px;
   letter-spacing: .5px;
-  width: 100%;
+  width: 90%;
   text-align: justify;
 }
 
@@ -78,5 +81,106 @@
   }
   100% {
     transform: translateX(0);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .blog-single-img {
+    width: 900px;
+  }
+  .blog-single-title {
+    font-size: 45px;
+
+  }
+  .blog-single-text {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .blog-single-img {
+    width: 800px;
+  }
+  .blog-single-title {
+    font-size: 42px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .blog-single-img {
+    width: 700px;
+  }
+  .blog-single-title {
+    font-size: 38px;
+  }
+  .blog-single-text {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .blog-single-img {
+    width: 600px;
+  }
+  .blog-single-title {
+    font-size: 36px;
+    margin-top: 30px;
+  }
+  .blog-single-text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .blog-single-img {
+    width: 500px;
+  }
+  .blog-single-title {
+    font-size: 35px;
+
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .blog-single-img {
+    width: 400px;
+  }
+  .blog-single-title {
+    font-size: 30px;
+  }
+  .blog-single-text {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .blog-single {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .blog-single-img {
+    width: 350px;
+  }
+  .blog-single-title {
+    font-size: 25px;
+  }
+  .blog-single-text {
+    font-size: 14px;
+  }
+  .blog-single-btn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .blog-single-img {
+    width: 300px;
+  }
+  .blog-single-title {
+    font-size: 23px;
+  }
+  .blog-single-text {
+    font-size: 13px;
   }
 }

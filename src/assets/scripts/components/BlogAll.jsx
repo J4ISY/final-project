@@ -16,30 +16,29 @@ function BlogAll() {
 
             {/*<h1 style={{fontWeight: 500}}>Strona <span style={{fontWeight: 900}}>BLOG</span> w budowie..</h1>*/}
 
-            <section className="blog">
-                <div className="container">
-                    <div className="blog-posts">
-                        <div className="blog-post">
-                            {data && data.map(entry => {
+            <section className="blog-all">
+                    <div className="blog-all-posts">
+                        {data && data.map(entry => {
                             return (
-                            <>
-                                <Link to={`/blogs/${entry.id}`} className='blog-post-a'>
-                                    <img key={entry.id} src={entry.photo || null} className='blog-post-img' alt="Blog post image"/>
-                                </Link>
-                                <div className="blog-post-content">
-                                    <h3 className="blog-title"><Link to='/blogs/1'>{entry.title}</Link></h3>
-                                    <p className="blog-meta">{entry.author}</p>
-                                    <p className="blog-excerpt">{entry.shortDesc}</p>
-                                </div>
-                            </>
+                                <>
+                                    <div className="blog-all-single-post">
+                                        <Link to={`/blogs/${entry.id}`} className='blog-all-single-post-a'>
+                                            <img key={entry.id} src={entry.photo || null} className='blog-all-single-post-img'
+                                                 alt="Blog post image"/>
+                                        </Link>
+                                        <div className="blog-all-post-content">
+                                            <h3 className="blog-all-title"><Link className='blog-all-title-link'
+                                                to={`/blogs/${entry.id}`}>{entry.title}</Link></h3>
+                                            <p className="blog-all-meta">{entry.author}</p>
+                                            <p className="blog-all-excerpt">{entry.shortDesc}</p>
+                                        </div>
+                                    </div>
+                                </>
                             )
                         })}
-                        </div>
-                    </div>
                 </div>
             </section>
         </>
     );
 }
-
-export default BlogAll;
+    export default BlogAll;
