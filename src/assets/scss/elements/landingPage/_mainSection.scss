@@ -288,8 +288,7 @@
 
 
   .client-photo {
-    width: 450px;
-    height: 450px;
+    height: 700px;
   }
 
 }
@@ -356,7 +355,7 @@
 
 
   .main-bottom {
-    height: 600px;
+    height: 700px;
   }
   .main-bottom-content {
     padding-bottom: 0;
@@ -364,7 +363,7 @@
 
   .client-photo {
     width: 390px;
-    height: 390px;
+    height: 600px;
   }
 
   .bottom-title {
@@ -392,8 +391,8 @@
     width: 50%;
   }
   .client-photo {
-    width: 400px;
-    height: 400px;
+    //width: 400px;
+  //  height: 400px;
   }
 
 
@@ -439,7 +438,8 @@
   }
   .client-photo {
     width: 370px;
-    height: 370px;
+    height: 500px;
+    background-position: top;
   }
 
   .bottom-title {
@@ -482,8 +482,8 @@
   }
 
   .client-photo {
-    width: 370px;
-    height: 370px;
+    width: 350px;
+    height: 470px;
   }
 
 
@@ -569,7 +569,7 @@
 
   .client-photo {
     width: 330px;
-    height: 330px;
+    height: 420px;
   }
 
   .bottom-title {
@@ -593,7 +593,6 @@
 
   .client-photo {
     width: 300px;
-    height: 300px;
   }
   .bottom-title {
     font-size: 50px;
@@ -667,7 +666,7 @@
 
   .client-photo {
     width: 270px;
-    height: 270px;
+    //height: 0px;
   }
 
   .bottom-title {
@@ -926,9 +925,7 @@
 
 
 @media only screen and (max-width: 304px) {
-
   .main-text {
     width: 100%;
   }
-
 }
