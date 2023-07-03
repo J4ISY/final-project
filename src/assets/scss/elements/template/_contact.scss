@@ -18,8 +18,8 @@
   flex-direction: column;
   left: 34%;
   top: 200px;
-  width: 800px;
-  height: 600px;
+  width: 1000px;
+  height: 700px;
   overflow: hidden;
   z-index: 1000;
   background-color: rgba(255, 255, 255, .9);
@@ -50,7 +50,7 @@
 }
 
 .contact-input {
-  width: 500px;
+  width: 700px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -61,7 +61,7 @@
 }
 
 .contact-text {
-  width: 500px;
+  width: 700px;
   padding-top: 10px;
   padding-left: 20px;
   border-radius: 25px;
@@ -95,9 +95,62 @@
   z-index: 70;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1050px) {
   .contact-form {
-    width: 650px;
+    width: 800px;
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .contact-form {
+    width: 700px;
+  }
+  .contact-input {
+    width: 600px;
+  }
+  .contact-text {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .contact-form {
+    width: 600px;
+  }
+  .contact-input {
+    width: 500px;
+  }
+  .contact-text {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .contact-form {
+    width: 500px;
+  }
+  .contact-input {
+    width: 400px;
+  }
+  .contact-text {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+
+  .contact-form-title {
+    font-size: 35px;
+  }
+  .contact-form {
+    width: 400px;
+  }
+  .contact-input {
+    width: 300px;
+  }
+  .contact-text {
+    width: 300px;
   }
 }
 
@@ -114,12 +167,29 @@
 
   .contact-form-title {
     text-align: center;
+    font-size: 30px;
   }
 
   .contact-input {
-    width: 250px;
+    width: 300px;
   }
 
+  .contact-text {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+
+  .contact-form-title {
+    font-size: 28px;
+  }
+  .contact-form {
+    width: 300px;
+  }
+  .contact-input {
+    width: 250px;
+  }
   .contact-text {
     width: 250px;
   }
@@ -131,13 +201,14 @@
   }
   .contact-form-title {
     text-align: center;
+    font-size: 26px;
   }
 
   .contact-input {
-    width: 200px;
+    width: 230px;
   }
 
   .contact-text {
-    width: 200px;
+    width: 230px;
   }
 }

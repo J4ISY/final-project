@@ -107,6 +107,7 @@
   margin-bottom: 20px;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 20px;
   color: $hoverColor;
   border: 3px solid $hoverColor;
   padding: 10px 40px;
@@ -378,9 +379,12 @@
 
 
 @media only screen and (max-width: 1002px) {
-
   .main-text {
     width: 55%;
+  }
+
+  .main-mid-link {
+    font-size: 18px;
   }
 }
 
@@ -659,6 +663,10 @@
     height: 170px;
   }
 
+  .main-mid-link {
+    font-size: 16px;
+  }
+
 }
 
 
@@ -680,24 +688,6 @@
 }
 
 
-@media only screen and (max-width: 470px) {
-
-  .offer-img {
-    width: 135px;
-    height: 135px;
-  }
-
-  .blog-img {
-    width: 135px;
-    height: 135px;
-  }
-
-  .gallery-img {
-    width: 135px;
-    height: 135px;
-  }
-
-}
 
 @media only screen and (max-width: 559px) {
 
@@ -761,6 +751,10 @@
     height: 200px;
   }
 
+  .main-mid-link {
+    font-size: 18px;
+  }
+
   .main-bottom {
     height: 800px;
     width: 100%;
@@ -809,7 +803,6 @@
 
 }
 
-
 @media only screen and (max-width: 405px) {
 
   .main-text {
@@ -847,22 +840,10 @@
     height: 1000px;
   }
 
-  .offer-link {
+  .main-mid-link {
     padding: 8px 30px;
     border: 2px solid $hoverColor;
-    font-size: 15px;
-  }
-
-  .blog-link {
-    padding: 8px 30px;
-    border: 2px solid $hoverColor;
-    font-size: 15px;
-  }
-
-  .gallery-link {
-    padding: 8px 30px;
-    border: 2px solid $hoverColor;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .client-photo {

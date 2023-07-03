@@ -81,7 +81,7 @@
   font-size: 20px;
 }
 
-.main-contact-btn {
+.offer-contact-btn {
   background-color: transparent;
   border: 3px solid $hoverColor;
   border-radius: 15px;
@@ -93,7 +93,7 @@
   transition: all 0.3s;
 }
 
-.main-contact-btn:hover {
+.offer-contact-btn:hover {
   border-color: white;
   color: white;
   background-color: $hoverColor;
@@ -143,7 +143,7 @@
   }
   .single-short {
     font-size: 20px;
-    margin: 0;
+    margin: 5px;
   }
   .single-kon {
     font-size: 18px;
@@ -155,19 +155,23 @@
   .cost-el {
     font-size: 18px;
   }
-  .main-contact-btn {
+  .offer-contact-btn {
     align-self: center;
   }
 }
 
+@media only screen and (max-width: 800px) {
+    .single-short {
+      font-size: 18px;
+      padding-bottom: 10px;
+      border-bottom: .75px solid black;
+    }
+}
 
 @media only screen and (max-width: 768px) {
   .single-img {
     width: 350px;
     height: 350px;
-  }
-  .single-short {
-    font-size: 18px;
   }
   .single-kon {
     font-size: 16px;
@@ -186,7 +190,7 @@
   }
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 710px) {
   .single-wrapper {
     flex-direction: column;
   }
@@ -226,7 +230,7 @@
   }
   .single-short {
     font-size: 20px;
-    margin: 0;
+    //margin: 0;
   }
   .single-kon {
     font-size: 18px;
@@ -240,7 +244,7 @@
     list-style: none;
     font-size: 18px;
   }
-  .main-contact-btn {
+  .offer-contact-btn {
     align-self: center;
   }
 }

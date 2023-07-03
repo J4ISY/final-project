@@ -50,7 +50,7 @@ function OfferLeader() {
                         </div>
                         {/*<p className="single-ps">Po wybraniu najlepszego wariantu i opłaceniu konsultacji otrzymasz kalendarz z możliwymi*/}
                         {/*    terminami do wyboru.</p>*/}
-                        <p className="single-ps">Zdecydowany/a? Skontaktuj się ze mną!</p><button className="main-contact-btn" onClick={openForm}>Kontakt</button>
+                        <p className="single-ps">Zdecydowany/a? Skontaktuj się ze mną!</p><button className="offer-contact-btn" onClick={openForm}>Kontakt</button>
                     </div>
                 </div>
             </div>

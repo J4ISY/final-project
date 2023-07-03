@@ -38,7 +38,7 @@ function OfferPrem() {
                         </div>
                         <p className="single-kon">Udział w programie mentoringowym może trwać – 3, 6 lub 12 miesięcy. Cena ustalana jest
                             indywidualnie. Jeśli jesteś zainteresowany ofertą – napisz wiadomość.</p>
-                        <p className="single-ps">Zdecydowany/a? Skontaktuj się ze mną!</p><button className="main-contact-btn" onClick={openForm}>Kontakt</button>
+                        <p className="single-ps">Zdecydowany/a? Skontaktuj się ze mną!</p><button className="offer-contact-btn" onClick={openForm}>Kontakt</button>
                     </div>
                 </div>
             </div>
