@@ -14,7 +14,7 @@ function Header() {
         <>
             <header className="header">
                 <a href="/" className="logo__link">
-                    <img src="/src/assets/images/imgUse/logo-black.png" alt="Przywództwo w sporcie logo" className='header-logo'/>
+                    <img src="/src/assets/images/logo-black.png" alt="Przywództwo w sporcie logo" className='header-logo'/>
                 </a>
                 <nav className={`nav-header ${isActive ? 'active' : 'hidden'}`}>
                     <ul className={`ul-header ${isActive ? 'active' : 'hidden'}`}>

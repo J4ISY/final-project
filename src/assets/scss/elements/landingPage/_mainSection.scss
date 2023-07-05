@@ -128,7 +128,7 @@
   width: 350px;
   height: 350px;
   border-radius: 10px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/conversation.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/conversation.jpg");
   background-position: center right;
   background-size: cover;
 }
@@ -141,7 +141,7 @@
   width: 350px;
   height: 350px;
   border-radius: 10px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/blog.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/blog.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -150,7 +150,7 @@
   width: 350px;
   height: 350px;
   border-radius: 10px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/imgUse/winner2.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url("/src/assets/images/winner2.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -183,7 +183,7 @@
   width: 450px;
   height: 700px;
   border-radius: 15px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, .7)), url("/src/assets/images/imgUse/maja-marciniak/image4.jpeg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, .7)), url("/src/assets/images/image4.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -214,7 +214,7 @@
 
 .main-top::before {
   content: "";
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('/src/assets/images/imgUse/lion-lying-down-small.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('/src/assets/images/lion-lying-down-small.jpg');
   background-size: cover;
   background-position: center;
   opacity: .7;
@@ -241,7 +241,7 @@
 // Opacity dla main-bottom
 .main-bottom::before {
   content: "";
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)), url('/src/assets/images/imgUse/lion-staring.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)), url('/src/assets/images/lion-staring.jpg');
   background-size: cover;
   background-position: top;
   opacity: .7;
@@ -725,6 +725,7 @@
     padding: 8px 30px;
     font-size: 20px;
     border: 3px solid $hoverColor;
+    cursor: pointer;
   }
 
   .main-mid {
@@ -798,7 +799,7 @@
   .main-top::before {
     background-position: right;
     opacity: 0.8;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('/src/assets/images/imgUse/lion-lying-down-small-short.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('/src/assets/images/lion-lying-down-small-short.jpg');
   }
 
 }

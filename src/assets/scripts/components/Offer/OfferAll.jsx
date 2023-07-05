@@ -12,7 +12,7 @@ function OfferAll() {
 
                     <div className="offer-single-page offer-single-page-first">
                         <div className="single-img-page-left single-page-img">
-                            <img src="/src/assets/images/imgUse/maja-marciniak/image0bgc.jpeg"
+                            <img src="/src/assets/images/image0bgc.jpeg"
                                  alt="zdjęcie konsultacje indywidualne" className="img-left-page img-img-page"/>
                         </div>
                         <div className="content-right content-page">
@@ -30,7 +30,7 @@ function OfferAll() {
 
                     <div className="offer-single-page offer-single-page-second">
                         <div className="single-img-page-right single-img-page">
-                            <img src="/src/assets/images/imgUse/maja-marciniak/image6.jpeg"
+                            <img src="/src/assets/images/image6.jpeg"
                                  alt="zdjęcie konsultacje indywidualne" className="img-right-page img-img-page"/>
                         </div>
                         <div className="content-left-page content-page">
@@ -49,14 +49,14 @@ function OfferAll() {
                             </div>
                         </div>
                         <div className="single-img-right single-img-page">
-                            <img src="/src/assets/images/imgUse/maja-marciniak/image6.jpeg"
+                            <img src="/src/assets/images/image6.jpeg"
                                  alt="zdjęcie konsultacje indywidualne" className="img-right-page img-img-page"/>
                         </div>
                     </div>
 
                     <div className="offer-single-page">
                         <div className="single-img-left-page single-img-page">
-                            <img src="/src/assets/images/imgUse/maja-marciniak/image8.jpeg"
+                            <img src="/src/assets/images/image8.jpeg"
                                  alt="zdjęcie konsultacje indywidualne" className="img-left-page img-img-page"/>
                         </div>
                         <div className="content-right-page content-page">
@@ -73,7 +73,7 @@ function OfferAll() {
 
                     <div className="offer-single-page offer-single-page-second">
                         <div className="single-img-right-page single-img-page">
-                            <img src="/src/assets/images/imgUse/maja-marciniak/image7.jpeg"
+                            <img src="/src/assets/images/image7.jpeg"
                                  alt="zdjęcie konsultacje indywidualne" className="img-right-page img-img-page"/>
                         </div>
                         <div className="content-left-page content-page">
@@ -91,7 +91,7 @@ function OfferAll() {
                             </div>
                         </div>
                         <div className="single-img-right-page single-img-page">
-                            <img src="/src/assets/images/imgUse/maja-marciniak/image7.jpeg"
+                            <img src="/src/assets/images/image7.jpeg"
                                  alt="zdjęcie konsultacje indywidualne" className="img-right-page img-img-page"/>
                         </div>
                     </div>
