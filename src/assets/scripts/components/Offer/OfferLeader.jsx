@@ -3,11 +3,14 @@ import Contact from "../../template/Contact.jsx";
 import {Link} from "react-router-dom";
 import openForm from "../../helpers/OpenForm.js";
 import leadership from "/src/assets/pdf/leadership.pdf";
+import Header from '../../template/Header.jsx'
+import Footer from "../../template/Footer.jsx";
 
 function OfferLeader() {
 
     return (
         <>
+        <Header />
             <div className="single-offer">
 
                 <div className="overlay-contact-form">
@@ -54,6 +57,7 @@ function OfferLeader() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }

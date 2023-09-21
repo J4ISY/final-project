@@ -30,13 +30,6 @@ function Contact() {
                 });
     };
 
-    // function validCloseForm() {
-    //     if(this.sendForm === true){
-    //         document.querySelector(".overlay-contact-form").style.display = "none";
-    //         document.querySelector("body").style.backgroundColor = "unset"
-    //     }
-    // }
-
     return (
         <>
             <form ref={form} onSubmit={sendEmail} className="contact-form">
@@ -60,7 +53,7 @@ function Contact() {
                 <textarea name="message" id="" cols="30" rows="10" className="contact-text"
                           placeholder="Treść wiadomości.." required></textarea>
 
-                <input type="submit" /*onClick={validCloseForm}*/ className="contact-form-submit" value="Wyślij"/>
+                <input type="submit" className="contact-form-submit" value="Wyślij"/>
             </form>
         </>
     );

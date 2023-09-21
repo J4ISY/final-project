@@ -1,4 +1,5 @@
 import {useState} from "react";
+import {Link} from "react-router-dom";
 
 function Header() {
     // const [active, setActive] = useState("");
@@ -13,14 +14,14 @@ function Header() {
     return (
         <>
             <header className="header">
-                <a href="/" className="logo__link">
+                <Link to="/" className="logo__link">
                     <img src="/src/assets/images/logo-black.png" alt="Przywództwo w sporcie logo" className='header-logo'/>
-                </a>
+                </Link>
                 <nav className={`nav-header ${isActive ? 'active' : 'hidden'}`}>
                     <ul className={`ul-header ${isActive ? 'active' : 'hidden'}`}>
-                        <li className='li-header'><a href="/" className="nav__link">Strona główna</a></li>
-                        <li className='li-header'><a href="/oferta" className="nav__link">Oferta</a></li>
-                        <li className='li-header'><a href={`/blogs`} className="nav__link">Blog</a></li>
+                        <li className='li-header'><Link to="/" className="nav__link">Strona główna</Link></li>
+                        <li className='li-header'><Link to="/oferta" className="nav__link">Oferta</Link></li>
+                        <li className='li-header'><Link to={`/blogs`} className="nav__link">Blog</Link></li>
                     </ul>
                 </nav>
 

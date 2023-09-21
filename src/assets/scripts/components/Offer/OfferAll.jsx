@@ -1,8 +1,11 @@
 import {Link} from "react-router-dom";
+import Header from "../../template/Header.jsx";
+import Footer from "../../template/Footer.jsx";
 
 function OfferAll() {
     return (
         <>
+        <Header />
             <div className="offer-page">
                 {/*<div className="offer-header">*/}
                 {/*    /!*<img src="/src/assets/images/imgUse/offer-banner.jpg" alt="" className="offer-header-img"/>*!/*/}
@@ -98,6 +101,7 @@ function OfferAll() {
 
                 </div>
             </div>
+            <Footer />
         </>
     );
 }
